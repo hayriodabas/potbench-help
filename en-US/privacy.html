@@ -1,15 +1,17 @@
 <!doctype html>
-<html lang="en-US"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Potbench — Privacy</title><style>
-:root{color-scheme:light;--ink:#1e232a;--muted:#626b73;--paper:#f6f4ee;--accent:#3e714f}
-*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:18px/1.65 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
-main{max-width:820px;margin:0 auto;padding:48px 24px 80px}.brand{font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);font-weight:700}
-h1{font:500 46px/1.1 Georgia,serif;margin:16px 0 12px}h2{font-size:22px;margin:34px 0 6px}p{margin:8px 0;color:#303943}.lead{font-size:21px;line-height:1.5;color:#303943}
-nav{display:flex;gap:22px;margin:22px 0 34px}a{color:var(--accent);text-underline-offset:3px}footer{margin-top:44px;border-top:1px solid #d7d5cd;padding-top:18px;color:var(--muted);font-size:14px}
-@media(max-width:600px){main{padding:32px 20px 60px}h1{font-size:38px}.lead{font-size:19px}}
-</style><link rel="canonical" href="https://hayriodabas.github.io/potbench-help/en-US/privacy.html"></head>
-<body><main><div class="brand">Potbench · Portfolio Studio</div><nav><a href="privacy.html">Privacy</a><a href="support.html">Support</a></nav><h1>Privacy</h1><p class="lead">This prototype stores repotting projects, measurements, mix recipes and observations in the app&#x27;s local storage on this device. It does not send that content to a developer server.</p>
-<h2>Projects stay on this device</h2><p>Project data and estimates are processed on-device. The app has no account, advertising, analytics or third-party tracking SDK. iOS may include app data in device backups according to your device backup settings.</p>
-<h2>Exports are your choice</h2><p>When you choose to create or share a shopping list or backup, iOS presents its standard document or share interface. The recipient app or destination handles the exported copy under its own practices. The app does not upload it to a developer service.</p>
-<h2>Connection status</h2><p>The app checks whether a network path is available so it can display connectivity status. It does not use that check to transmit your project content.</p>
-<h2>Purchases</h2><p>No production in-app purchase product is configured in this prototype build.</p><footer><p>Last updated: October 17, 2026</p><p>Publisher: Hayri Odabaş</p><p>Support: <a href="mailto:hayriodabas@gmail.com">hayriodabas@gmail.com</a></p></footer></main></body></html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Potbench — Privacy</title><style>:root{color-scheme:light dark;--paper:#f4ede1;--card:#fcf8f0;--ink:#22251d;--ink2:#5f6356;--clay:#bf5f36;--rule:#d9cebb}
+@media(prefers-color-scheme:dark){:root{--paper:#17140f;--card:#231e17;--ink:#f1e9db;--ink2:#a89f8f;--clay:#e07a4a;--rule:#3a3328}}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.6 -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+main{max-width:760px;margin:0 auto;padding:44px 22px 72px}.brand{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink2);font-weight:600}
+h1{font:600 40px/1.1 'New York','Iowan Old Style',Georgia,serif;margin:14px 0 8px}h2{font:600 24px/1.2 'New York','Iowan Old Style',Georgia,serif;margin:34px 0 8px}
+p,li{margin:8px 0}.lead{font-size:20px;color:var(--ink2)}nav{display:flex;gap:18px;margin:18px 0 30px;flex-wrap:wrap}
+a{color:var(--clay);text-underline-offset:3px}.card{background:var(--card);border:1px solid var(--rule);border-radius:18px;padding:18px 22px;margin:14px 0}
+footer{margin-top:40px;border-top:1px solid var(--rule);padding-top:16px;color:var(--ink2);font-size:14px}
+.langs{display:flex;flex-wrap:wrap;gap:10px 16px;font-size:14px}@media(max-width:600px){main{padding:30px 18px 56px}h1{font-size:32px}}</style>
+<link rel="canonical" href="https://hayriodabas.github.io/potbench-help/en-US/privacy.html"></head>
+<body><main><div class="brand">Potbench</div>
+<nav><a href="privacy.html">Privacy</a><a href="support.html">Support</a><a href="../index.html">Languages</a></nav>
+<h1>Privacy</h1><p class="lead">Potbench keeps everything on your device. It has no account, no server, no analytics and no advertising.</p><h2>What stays on the device</h2><p>Your repots, pots, mixes, materials, bag prices, journal notes and photos are stored in the app's own folder on your iPhone or iPad. The app never sends them anywhere. iOS may include that folder in your device or iCloud backup according to your own backup settings.</p><h2>Photos</h2><p>A photo you add to the journal is copied into the app's folder through the system photo picker, which runs outside the app; Potbench never reads your photo library. The copy is deleted when you remove the entry or erase everything in Settings.</p><h2>Reminders</h2><p>A follow-up reminder is a local notification scheduled on the device. iOS asks for notification permission once; nothing about it leaves the device.</p><h2>Purchases</h2><p>Potbench Pro is a one-time purchase handled by Apple's App Store. Apple processes the payment; the app only learns whether the purchase is active. Apple's privacy policy applies to the transaction.</p><h2>Backups and sharing</h2><p>A backup is a file you export yourself. Shared plans, batches and CSV files go through the system share sheet to the destination you choose, and that destination handles the copy under its own practices.</p><h2>Network</h2><p>Potbench opens no network connection of its own. The only connections are the App Store's, for the purchase, and the links on this page.</p>
+<h2>Contact</h2><p><a href="mailto:hayriodabas@gmail.com">hayriodabas@gmail.com</a></p>
+<footer><p>Last updated: 20 October 2026</p><p>Hayri Odabaş</p></footer></main></body></html>
