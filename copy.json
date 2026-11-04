@@ -1,329 +1,1206 @@
 {
- "languages": {"en-US": "English", "de": "Deutsch", "fr": "Français", "es-419": "Español", "it": "Italiano", "pt-BR": "Português (Brasil)", "nl": "Nederlands", "ja": "日本語", "ko": "한국어", "zh-Hans": "简体中文", "ru": "Русский", "tr": "Türkçe"},
+ "languages": {
+  "en-US": "English",
+  "de": "Deutsch",
+  "fr": "Français",
+  "es-419": "Español",
+  "it": "Italiano",
+  "pt-BR": "Português (Brasil)",
+  "nl": "Nederlands",
+  "ja": "日本語",
+  "ko": "한국어",
+  "zh-Hans": "简体中文",
+  "ru": "Русский",
+  "tr": "Türkçe"
+ },
  "pages": {
- "en-US": {"languages": "Languages", "contact": "Contact", "updated": "Last updated: 20 October 2026",
-  "privacy": {"title": "Privacy", "lead": "Potbench keeps everything on your device. It has no account, no server, no analytics and no advertising.",
-   "sections": [
-    ["What stays on the device", "Your repots, pots, mixes, materials, bag prices, journal notes and photos are stored in the app's own folder on your iPhone or iPad. The app never sends them anywhere. iOS may include that folder in your device or iCloud backup according to your own backup settings."],
-    ["Photos", "A photo you add to the journal is copied into the app's folder through the system photo picker, which runs outside the app; Potbench never reads your photo library. The copy is deleted when you remove the entry or erase everything in Settings."],
-    ["Reminders", "A follow-up reminder is a local notification scheduled on the device. iOS asks for notification permission once; nothing about it leaves the device."],
-    ["Purchases", "Potbench Pro is a one-time purchase handled by Apple's App Store. Apple processes the payment; the app only learns whether the purchase is active. Apple's privacy policy applies to the transaction."],
-    ["Backups and sharing", "A backup is a file you export yourself. Shared plans, batches and CSV files go through the system share sheet to the destination you choose, and that destination handles the copy under its own practices."],
-    ["Network", "Potbench opens no network connection of its own. The only connections are the App Store's, for the purchase, and the links on this page."]
-   ]},
-  "support": {"title": "Support", "lead": "How much mix does that pot take? Potbench measures the pot, takes away the root ball and the headspace, and tells you what to prepare, by the scoop.",
-   "sections": [
-    ["Measure a pot", "Pick the shape (straight, tapered, bowl or planter box), type the rim, the base and the inside height, or tap a common size. The pot is drawn in section as you type. Units follow your region and can be switched in Settings."],
-    ["Root ball and headspace", "Count the root ball as a share of the new pot, from the size of the old pot, or from its measured width and height. Headspace is the empty depth from the rim; a drainage layer and a settling allowance are optional."],
-    ["Mixes", "Build a mix by parts from the material library or add your own material. Ten starting mixes can be copied and changed. The three gauges (structure, holds water, drains) are a reference reading of the materials, not advice for a particular plant."],
-    ["Scoops, bags and cost", "Choose the scoop you hold and each material comes as a number of scoops. Set a bag size and price once per material and the repot shows bags to buy and the cost (Pro)."],
-    ["Pot it and the journal", "Tick materials as they go in, correct what you really used, choose a follow-up week, and the plant is potted. Notes and photos follow in the journal; the Journal tab lists every entry across plants."],
-    ["Collection batch (Pro)", "Several planned repots that share a mix are added into one batch, with scoops and bags for all of them."],
-    ["Backups", "Settings › Export backup writes a file you keep; Restore from backup replaces what is on the device with it. Erase everything removes all data and photos."]
-   ],
-   "faq": [
-    ["Why a range, not one number?", "Pots are rarely perfect shapes and root balls are approximate. The figure is the planning estimate; the band shows the spread to expect."],
-    ["Does Potbench say which mix my plant needs?", "No. It calculates amounts for the mix you choose. The starting mixes are common recipes to adjust, not a diagnosis or a promise about plant health."],
-    ["I bought Pro on another device.", "Open Settings › Restore purchases on the new device, signed in to the same Apple Account."],
-    ["How do I change the language?", "Settings › App language opens the iOS per-app language setting."]
-   ]}
- },
- "de": {"languages": "Sprachen", "contact": "Kontakt", "updated": "Zuletzt aktualisiert: 20. Oktober 2026",
-  "privacy": {"title": "Datenschutz", "lead": "Potbench behält alles auf deinem Gerät. Kein Konto, kein Server, keine Analyse, keine Werbung.",
-   "sections": [
-    ["Was auf dem Gerät bleibt", "Umtopfungen, Töpfe, Mischungen, Materialien, Sackpreise, Tagebuchnotizen und Fotos liegen im eigenen Ordner der App auf deinem iPhone oder iPad. Die App sendet sie nirgendwohin. iOS kann diesen Ordner gemäß deinen Backup-Einstellungen in das Geräte- oder iCloud-Backup aufnehmen."],
-    ["Fotos", "Ein Foto im Tagebuch wird über die System-Fotoauswahl, die außerhalb der App läuft, in den Ordner der App kopiert; Potbench liest deine Fotomediathek nie. Die Kopie wird gelöscht, wenn du den Eintrag entfernst oder in den Einstellungen alles löschst."],
-    ["Erinnerungen", "Eine Erinnerung zum Nachsehen ist eine lokale Mitteilung auf dem Gerät. iOS fragt einmal nach der Berechtigung; nichts davon verlässt das Gerät."],
-    ["Käufe", "Potbench Pro ist ein Einmalkauf über Apples App Store. Apple wickelt die Zahlung ab; die App erfährt nur, ob der Kauf aktiv ist. Für die Transaktion gilt Apples Datenschutzrichtlinie."],
-    ["Backups und Teilen", "Ein Backup ist eine Datei, die du selbst exportierst. Geteilte Pläne, Chargen und CSV-Dateien gehen über das System-Teilen an das Ziel deiner Wahl."],
-    ["Netzwerk", "Potbench baut keine eigene Netzwerkverbindung auf. Verbindungen gibt es nur zum App Store für den Kauf und über die Links auf dieser Seite."]
-   ]},
-  "support": {"title": "Support", "lead": "Wie viel Erde braucht dieser Topf? Potbench misst den Topf, zieht Wurzelballen und Gießrand ab und sagt, was du anrühren musst, schaufelweise.",
-   "sections": [
-    ["Topf ausmessen", "Form wählen (gerade, konisch, Schale oder Pflanzkasten), Rand, Boden und Innenhöhe eintippen oder eine gängige Größe antippen. Der Topf wird beim Tippen im Schnitt gezeichnet. Einheiten folgen deiner Region und lassen sich in den Einstellungen umschalten."],
-    ["Wurzelballen und Gießrand", "Den Wurzelballen als Anteil am neuen Topf, aus der Größe des alten Topfs oder aus gemessener Breite und Höhe zählen. Der Gießrand ist die leere Tiefe ab Oberkante; Drainageschicht und Zugabe fürs Setzen sind optional."],
-    ["Mischungen", "Eine Mischung nach Teilen aus der Materialbibliothek zusammenstellen oder eigenes Material hinzufügen. Zehn Grundmischungen lassen sich kopieren und ändern. Die drei Anzeigen (Struktur, hält Wasser, Drainage) sind eine Referenz zu den Materialien, keine Empfehlung für eine bestimmte Pflanze."],
-    ["Schaufeln, Säcke und Kosten", "Wähle die Schaufel, die du hältst, und jedes Material kommt als Anzahl Schaufeln. Sackgröße und Preis einmal pro Material eintragen, und das Umtopfen zeigt Säcke und Kosten (Pro)."],
-    ["Eintopfen und Tagebuch", "Materialien beim Einfüllen abhaken, die tatsächliche Menge korrigieren, eine Woche zum Nachsehen wählen, fertig. Notizen und Fotos folgen im Tagebuch; der Tab Tagebuch listet alle Einträge über alle Pflanzen."],
-    ["Sammel-Charge (Pro)", "Mehrere geplante Umtopfungen mit derselben Mischung werden zu einer Charge zusammengerechnet, mit Schaufeln und Säcken für alle."],
-    ["Backups", "Einstellungen › Backup exportieren schreibt eine Datei, die du aufbewahrst; Aus Backup wiederherstellen ersetzt die Daten auf dem Gerät damit. Alles löschen entfernt alle Daten und Fotos."]
-   ],
-   "faq": [
-    ["Warum eine Spanne statt einer Zahl?", "Töpfe sind selten perfekte Formen und Wurzelballen sind Schätzungen. Die Zahl ist der Planungswert; die Spanne zeigt die zu erwartende Streuung."],
-    ["Sagt Potbench, welche Mischung meine Pflanze braucht?", "Nein. Es berechnet Mengen für die Mischung, die du wählst. Die Grundmischungen sind gängige Rezepte zum Anpassen, keine Diagnose und kein Versprechen."],
-    ["Ich habe Pro auf einem anderen Gerät gekauft.", "Öffne auf dem neuen Gerät Einstellungen › Käufe wiederherstellen, mit demselben Apple-Account."],
-    ["Wie ändere ich die Sprache?", "Einstellungen › App-Sprache öffnet die iOS-Einstellung für die Sprache dieser App."]
-   ]}
- },
- "fr": {"languages": "Langues", "contact": "Contact", "updated": "Dernière mise à jour : 20 octobre 2026",
-  "privacy": {"title": "Confidentialité", "lead": "Potbench garde tout sur votre appareil. Pas de compte, pas de serveur, pas d’analyse, pas de publicité.",
-   "sections": [
-    ["Ce qui reste sur l’appareil", "Vos rempotages, pots, substrats, matières, prix des sacs, notes de journal et photos sont conservés dans le dossier de l’app sur votre iPhone ou iPad. L’app ne les envoie nulle part. iOS peut inclure ce dossier dans la sauvegarde de l’appareil ou iCloud selon vos réglages."],
-    ["Photos", "Une photo ajoutée au journal est copiée dans le dossier de l’app via le sélecteur de photos du système, qui s’exécute hors de l’app ; Potbench ne lit jamais votre photothèque. La copie est supprimée quand vous retirez l’entrée ou effacez tout dans les réglages."],
-    ["Rappels", "Un rappel est une notification locale programmée sur l’appareil. iOS demande une fois l’autorisation ; rien ne quitte l’appareil."],
-    ["Achats", "Potbench Pro est un achat unique géré par l’App Store d’Apple. Apple traite le paiement ; l’app sait seulement si l’achat est actif. La politique de confidentialité d’Apple s’applique à la transaction."],
-    ["Sauvegardes et partage", "Une sauvegarde est un fichier que vous exportez vous-même. Les plans, lots et fichiers CSV partagés passent par la feuille de partage du système vers la destination de votre choix."],
-    ["Réseau", "Potbench n’ouvre aucune connexion réseau. Les seules connexions sont celles de l’App Store, pour l’achat, et les liens de cette page."]
-   ]},
-  "support": {"title": "Assistance", "lead": "Combien de terreau pour ce pot ? Potbench mesure le pot, retire la motte et l’espace d’arrosage, et vous dit quoi préparer, à la pelle.",
-   "sections": [
-    ["Mesurer un pot", "Choisissez la forme (droit, évasé, coupe ou jardinière), saisissez le bord, le fond et la hauteur intérieure, ou touchez une taille courante. Le pot se dessine en coupe. Les unités suivent votre région et se changent dans les réglages."],
-    ["Motte et espace d’arrosage", "Comptez la motte comme part du nouveau pot, d’après la taille de l’ancien pot, ou d’après sa largeur et sa hauteur mesurées. L’espace d’arrosage est la profondeur vide sous le bord ; couche de drainage et marge de tassement sont facultatives."],
-    ["Substrats", "Composez un substrat en parts depuis la bibliothèque de matières ou ajoutez la vôtre. Dix substrats de départ se copient et se modifient. Les trois jauges (structure, retient l’eau, draine) décrivent les matières ; ce n’est pas un conseil pour une plante donnée."],
-    ["Pelletées, sacs et coût", "Choisissez la pelle que vous tenez et chaque matière vient en pelletées. Indiquez une fois la taille et le prix du sac par matière et le rempotage affiche les sacs et le coût (Pro)."],
-    ["Rempoter et le journal", "Cochez les matières à mesure qu’elles entrent, corrigez ce que vous avez vraiment mis, choisissez une semaine de suivi, et la plante est rempotée. Notes et photos suivent dans le journal ; l’onglet Journal liste toutes les entrées."],
-    ["Lot pour la collection (Pro)", "Plusieurs rempotages prévus avec le même substrat sont additionnés en un lot, avec pelletées et sacs pour tous."],
-    ["Sauvegardes", "Réglages › Exporter une sauvegarde écrit un fichier que vous gardez ; Restaurer une sauvegarde remplace les données de l’appareil. Tout effacer supprime données et photos."]
-   ],
-   "faq": [
-    ["Pourquoi une fourchette et pas un seul chiffre ?", "Les pots sont rarement des formes parfaites et les mottes sont approximatives. Le chiffre est l’estimation de planification ; la fourchette montre l’écart à attendre."],
-    ["Potbench dit-il quel substrat ma plante veut ?", "Non. Il calcule des quantités pour le substrat que vous choisissez. Les substrats de départ sont des recettes courantes à ajuster, pas un diagnostic."],
-    ["J’ai acheté Pro sur un autre appareil.", "Ouvrez Réglages › Restaurer les achats sur le nouvel appareil, avec le même compte Apple."],
-    ["Comment changer la langue ?", "Réglages › Langue de l’app ouvre le réglage iOS de langue par app."]
-   ]}
- },
- "es-419": {"languages": "Idiomas", "contact": "Contacto", "updated": "Última actualización: 20 de octubre de 2026",
-  "privacy": {"title": "Privacidad", "lead": "Potbench guarda todo en tu dispositivo. Sin cuenta, sin servidor, sin analítica y sin publicidad.",
-   "sections": [
-    ["Lo que queda en el dispositivo", "Tus trasplantes, macetas, sustratos, materiales, precios de sacos, notas y fotos se guardan en la carpeta de la app en tu iPhone o iPad. La app nunca los envía a ningún sitio. iOS puede incluir esa carpeta en el respaldo del dispositivo o de iCloud según tus ajustes."],
-    ["Fotos", "Una foto añadida al diario se copia a la carpeta de la app mediante el selector de fotos del sistema, que corre fuera de la app; Potbench nunca lee tu fototeca. La copia se borra al quitar la entrada o al borrar todo en Ajustes."],
-    ["Recordatorios", "Un recordatorio es una notificación local programada en el dispositivo. iOS pide permiso una vez; nada sale del dispositivo."],
-    ["Compras", "Potbench Pro es una compra única gestionada por el App Store de Apple. Apple procesa el pago; la app solo sabe si la compra está activa. A la transacción se aplica la política de privacidad de Apple."],
-    ["Respaldos y compartir", "Un respaldo es un archivo que exportas tú. Los planes, tandas y archivos CSV compartidos pasan por la hoja de compartir del sistema al destino que elijas."],
-    ["Red", "Potbench no abre ninguna conexión de red propia. Las únicas conexiones son las del App Store, para la compra, y los enlaces de esta página."]
-   ]},
-  "support": {"title": "Soporte", "lead": "¿Cuánto sustrato necesita esa maceta? Potbench mide la maceta, resta el cepellón y el espacio de riego, y te dice qué preparar, por paladas.",
-   "sections": [
-    ["Medir una maceta", "Elige la forma (recta, cónica, cuenco o jardinera), escribe el borde, la base y la altura interior, o toca un tamaño habitual. La maceta se dibuja en sección. Las unidades siguen tu región y se cambian en Ajustes."],
-    ["Cepellón y espacio de riego", "Cuenta el cepellón como parte de la maceta nueva, por el tamaño de la maceta anterior, o por su ancho y alto medidos. El espacio de riego es la profundidad vacía bajo el borde; la capa de drenaje y el margen de asentamiento son opcionales."],
-    ["Sustratos", "Crea un sustrato por partes desde la biblioteca de materiales o añade el tuyo. Diez sustratos de partida se copian y modifican. Los tres indicadores (estructura, retiene agua, drena) describen los materiales; no son un consejo para una planta concreta."],
-    ["Paladas, sacos y coste", "Elige la pala que tienes y cada material sale en paladas. Indica una vez el tamaño y el precio del saco por material y el trasplante muestra sacos y coste (Pro)."],
-    ["Trasplantar y el diario", "Marca los materiales según entran, corrige lo que usaste de verdad, elige una semana de seguimiento, y la planta queda trasplantada. Notas y fotos siguen en el diario; la pestaña Diario lista todas las entradas."],
-    ["Tanda para la colección (Pro)", "Varios trasplantes planificados con el mismo sustrato se suman en una tanda, con paladas y sacos para todos."],
-    ["Respaldos", "Ajustes › Exportar copia de seguridad escribe un archivo que guardas tú; Restaurar copia reemplaza los datos del dispositivo. Borrar todo elimina datos y fotos."]
-   ],
-   "faq": [
-    ["¿Por qué un rango y no una sola cifra?", "Las macetas rara vez son formas perfectas y los cepellones son aproximados. La cifra es la estimación para planificar; el rango muestra la variación esperable."],
-    ["¿Potbench dice qué sustrato necesita mi planta?", "No. Calcula cantidades para el sustrato que elijas. Los sustratos de partida son recetas habituales para ajustar, no un diagnóstico."],
-    ["Compré Pro en otro dispositivo.", "Abre Ajustes › Restaurar compras en el dispositivo nuevo, con la misma cuenta de Apple."],
-    ["¿Cómo cambio el idioma?", "Ajustes › Idioma de la app abre el ajuste de idioma por app de iOS."]
-   ]}
- },
- "it": {"languages": "Lingue", "contact": "Contatti", "updated": "Ultimo aggiornamento: 20 ottobre 2026",
-  "privacy": {"title": "Privacy", "lead": "Potbench tiene tutto sul tuo dispositivo. Niente account, niente server, niente analisi, niente pubblicità.",
-   "sections": [
-    ["Cosa resta sul dispositivo", "Rinvasi, vasi, terricci, materiali, prezzi dei sacchi, note e foto sono salvati nella cartella dell’app sul tuo iPhone o iPad. L’app non li invia da nessuna parte. iOS può includere quella cartella nel backup del dispositivo o di iCloud secondo le tue impostazioni."],
-    ["Foto", "Una foto aggiunta al diario viene copiata nella cartella dell’app tramite il selettore di foto di sistema, che gira fuori dall’app; Potbench non legge mai la tua libreria. La copia viene eliminata quando rimuovi la voce o cancelli tutto nelle Impostazioni."],
-    ["Promemoria", "Un promemoria è una notifica locale programmata sul dispositivo. iOS chiede il permesso una volta; nulla lascia il dispositivo."],
-    ["Acquisti", "Potbench Pro è un acquisto unico gestito dall’App Store di Apple. Apple elabora il pagamento; l’app sa solo se l’acquisto è attivo. Alla transazione si applica l’informativa privacy di Apple."],
-    ["Backup e condivisione", "Un backup è un file che esporti tu. Piani, lotti e file CSV condivisi passano dal foglio di condivisione di sistema alla destinazione che scegli."],
-    ["Rete", "Potbench non apre connessioni di rete proprie. Le uniche connessioni sono quelle dell’App Store, per l’acquisto, e i link di questa pagina."]
-   ]},
-  "support": {"title": "Supporto", "lead": "Quanto terriccio serve a quel vaso? Potbench misura il vaso, toglie pane di terra e spazio di irrigazione, e ti dice cosa preparare, a palate.",
-   "sections": [
-    ["Misurare un vaso", "Scegli la forma (dritto, svasato, ciotola o fioriera), digita bordo, base e altezza interna, oppure tocca una misura comune. Il vaso si disegna in sezione. Le unità seguono la tua regione e si cambiano nelle Impostazioni."],
-    ["Pane di terra e spazio di irrigazione", "Conta il pane di terra come quota del nuovo vaso, dalla misura del vaso precedente, o da larghezza e altezza misurate. Lo spazio di irrigazione è la profondità vuota sotto il bordo; strato drenante e margine di assestamento sono facoltativi."],
-    ["Terricci", "Componi un terriccio in parti dalla libreria dei materiali o aggiungi il tuo. Dieci terricci di partenza si copiano e modificano. I tre indicatori (struttura, trattiene acqua, drena) descrivono i materiali; non sono un consiglio per una pianta precisa."],
-    ["Palate, sacchi e costo", "Scegli la paletta che hai in mano e ogni materiale arriva in palate. Indica una volta misura e prezzo del sacco per materiale e il rinvaso mostra sacchi e costo (Pro)."],
-    ["Rinvasare e il diario", "Spunta i materiali man mano che entrano, correggi quanto hai usato davvero, scegli una settimana di ricontrollo, e la pianta è rinvasata. Note e foto seguono nel diario; la scheda Diario elenca tutte le voci."],
-    ["Lotto per la collezione (Pro)", "Più rinvasi pianificati con lo stesso terriccio vengono sommati in un lotto, con palate e sacchi per tutti."],
-    ["Backup", "Impostazioni › Esporta backup scrive un file che conservi tu; Ripristina da backup sostituisce i dati sul dispositivo. Cancella tutto elimina dati e foto."]
-   ],
-   "faq": [
-    ["Perché un intervallo e non un solo numero?", "I vasi sono raramente forme perfette e i pani di terra sono approssimativi. La cifra è la stima di pianificazione; l’intervallo mostra lo scarto da aspettarsi."],
-    ["Potbench dice quale terriccio serve alla mia pianta?", "No. Calcola le quantità per il terriccio che scegli. I terricci di partenza sono ricette comuni da adattare, non una diagnosi."],
-    ["Ho comprato Pro su un altro dispositivo.", "Apri Impostazioni › Ripristina acquisti sul nuovo dispositivo, con lo stesso account Apple."],
-    ["Come cambio la lingua?", "Impostazioni › Lingua dell’app apre l’impostazione iOS della lingua per app."]
-   ]}
- },
- "pt-BR": {"languages": "Idiomas", "contact": "Contato", "updated": "Última atualização: 20 de outubro de 2026",
-  "privacy": {"title": "Privacidade", "lead": "O Potbench guarda tudo no seu aparelho. Sem conta, sem servidor, sem análise e sem publicidade.",
-   "sections": [
-    ["O que fica no aparelho", "Replantios, vasos, substratos, materiais, preços de sacos, notas e fotos ficam na pasta do app no seu iPhone ou iPad. O app nunca os envia a lugar nenhum. O iOS pode incluir essa pasta no backup do aparelho ou do iCloud conforme seus ajustes."],
-    ["Fotos", "Uma foto adicionada ao diário é copiada para a pasta do app pelo seletor de fotos do sistema, que roda fora do app; o Potbench nunca lê sua fototeca. A cópia é apagada quando você remove o registro ou apaga tudo nos Ajustes."],
-    ["Lembretes", "Um lembrete é uma notificação local agendada no aparelho. O iOS pede permissão uma vez; nada sai do aparelho."],
-    ["Compras", "O Potbench Pro é uma compra única gerenciada pela App Store da Apple. A Apple processa o pagamento; o app só sabe se a compra está ativa. A política de privacidade da Apple vale para a transação."],
-    ["Backups e compartilhamento", "Um backup é um arquivo que você mesmo exporta. Planos, lotes e arquivos CSV compartilhados passam pela folha de compartilhamento do sistema para o destino que você escolher."],
-    ["Rede", "O Potbench não abre nenhuma conexão de rede própria. As únicas conexões são as da App Store, para a compra, e os links desta página."]
-   ]},
-  "support": {"title": "Suporte", "lead": "Quanto substrato aquele vaso precisa? O Potbench mede o vaso, desconta o torrão e o espaço de rega, e diz o que preparar, por concha.",
-   "sections": [
-    ["Medir um vaso", "Escolha o formato (reto, cônico, cuia ou jardineira), digite a borda, a base e a altura interna, ou toque num tamanho comum. O vaso é desenhado em corte. As unidades seguem sua região e mudam nos Ajustes."],
-    ["Torrão e espaço de rega", "Conte o torrão como fração do vaso novo, pelo tamanho do vaso antigo, ou pela largura e altura medidas. O espaço de rega é a profundidade vazia abaixo da borda; camada de drenagem e margem de acomodação são opcionais."],
-    ["Substratos", "Monte um substrato por partes a partir da biblioteca de materiais ou adicione o seu. Dez substratos de partida podem ser copiados e alterados. Os três medidores (estrutura, retém água, drena) descrevem os materiais; não são conselho para uma planta específica."],
-    ["Conchas, sacos e custo", "Escolha a concha que está na sua mão e cada material vem em conchas. Informe uma vez o tamanho e o preço do saco por material e o replantio mostra sacos e custo (Pro)."],
-    ["Replantar e o diário", "Marque os materiais conforme entram, corrija o que realmente usou, escolha uma semana de acompanhamento, e a planta está replantada. Notas e fotos seguem no diário; a aba Diário lista todos os registros."],
-    ["Lote da coleção (Pro)", "Vários replantios planejados com o mesmo substrato são somados em um lote, com conchas e sacos para todos."],
-    ["Backups", "Ajustes › Exportar backup grava um arquivo que você guarda; Restaurar do backup substitui os dados do aparelho. Apagar tudo remove dados e fotos."]
-   ],
-   "faq": [
-    ["Por que uma faixa e não um só número?", "Vasos raramente são formas perfeitas e torrões são aproximados. O número é a estimativa de planejamento; a faixa mostra a variação esperada."],
-    ["O Potbench diz qual substrato minha planta precisa?", "Não. Ele calcula quantidades para o substrato que você escolher. Os substratos de partida são receitas comuns para ajustar, não um diagnóstico."],
-    ["Comprei o Pro em outro aparelho.", "Abra Ajustes › Restaurar compras no aparelho novo, com a mesma Conta Apple."],
-    ["Como mudo o idioma?", "Ajustes › Idioma do app abre o ajuste de idioma por app do iOS."]
-   ]}
- },
- "nl": {"languages": "Talen", "contact": "Contact", "updated": "Laatst bijgewerkt: 20 oktober 2026",
-  "privacy": {"title": "Privacy", "lead": "Potbench houdt alles op je apparaat. Geen account, geen server, geen analyse, geen advertenties.",
-   "sections": [
-    ["Wat op het apparaat blijft", "Verpottingen, potten, mengsels, materialen, zakprijzen, notities en foto’s staan in de eigen map van de app op je iPhone of iPad. De app stuurt ze nergens heen. iOS kan die map volgens je eigen instellingen in de apparaat- of iCloud-back-up opnemen."],
-    ["Foto’s", "Een foto in het logboek wordt via de fotokiezer van het systeem, die buiten de app draait, naar de map van de app gekopieerd; Potbench leest je fotobibliotheek nooit. De kopie wordt verwijderd als je het item verwijdert of alles wist in Instellingen."],
-    ["Herinneringen", "Een herinnering is een lokale melding die op het apparaat wordt gepland. iOS vraagt één keer om toestemming; niets verlaat het apparaat."],
-    ["Aankopen", "Potbench Pro is een eenmalige aankoop via Apples App Store. Apple verwerkt de betaling; de app weet alleen of de aankoop actief is. Op de transactie is het privacybeleid van Apple van toepassing."],
-    ["Back-ups en delen", "Een back-up is een bestand dat je zelf exporteert. Gedeelde plannen, partijen en CSV-bestanden gaan via het deelvenster van het systeem naar de bestemming die je kiest."],
-    ["Netwerk", "Potbench opent zelf geen netwerkverbinding. De enige verbindingen zijn die van de App Store, voor de aankoop, en de links op deze pagina."]
-   ]},
-  "support": {"title": "Ondersteuning", "lead": "Hoeveel mengsel moet er in die pot? Potbench meet de pot, trekt wortelkluit en gietrand eraf en zegt wat je moet maken, per schep.",
-   "sections": [
-    ["Een pot opmeten", "Kies de vorm (recht, taps, schaal of plantenbak), typ rand, bodem en binnenhoogte, of tik een gangbare maat aan. De pot wordt in doorsnede getekend. Eenheden volgen je regio en zijn in Instellingen te wijzigen."],
-    ["Wortelkluit en gietrand", "Tel de wortelkluit als deel van de nieuwe pot, op basis van de oude pot, of uit gemeten breedte en hoogte. De gietrand is de lege diepte vanaf de rand; drainagelaag en marge voor inklinken zijn optioneel."],
-    ["Mengsels", "Stel een mengsel in delen samen uit de materiaalbibliotheek of voeg je eigen materiaal toe. Tien basismengsels kun je kopiëren en aanpassen. De drie meters (structuur, houdt water, draineert) beschrijven de materialen; het is geen advies voor een bepaalde plant."],
-    ["Scheppen, zakken en kosten", "Kies de schep die je vasthoudt en elk materiaal komt als aantal scheppen. Geef per materiaal één keer zakmaat en prijs op en de verpotting toont zakken en kosten (Pro)."],
-    ["Verpotten en het logboek", "Vink materialen af terwijl ze erin gaan, corrigeer wat je echt hebt gebruikt, kies een week om terug te kijken, en de plant is verpot. Notities en foto’s volgen in het logboek; het tabblad Logboek toont alle items."],
-    ["Partij voor de collectie (Pro)", "Meerdere geplande verpottingen met hetzelfde mengsel worden opgeteld tot één partij, met scheppen en zakken voor allemaal."],
-    ["Back-ups", "Instellingen › Back-up exporteren schrijft een bestand dat je bewaart; Herstellen uit back-up vervangt de gegevens op het apparaat. Alles wissen verwijdert gegevens en foto’s."]
-   ],
-   "faq": [
-    ["Waarom een bereik en niet één getal?", "Potten zijn zelden perfecte vormen en kluiten zijn schattingen. Het getal is de planningsschatting; het bereik toont de te verwachten spreiding."],
-    ["Zegt Potbench welk mengsel mijn plant nodig heeft?", "Nee. Het berekent hoeveelheden voor het mengsel dat jij kiest. De basismengsels zijn gangbare recepten om aan te passen, geen diagnose."],
-    ["Ik heb Pro op een ander apparaat gekocht.", "Open Instellingen › Aankopen herstellen op het nieuwe apparaat, met hetzelfde Apple-account."],
-    ["Hoe wijzig ik de taal?", "Instellingen › App-taal opent de iOS-taalinstelling per app."]
-   ]}
- },
- "ja": {"languages": "言語", "contact": "お問い合わせ", "updated": "最終更新: 2026年10月20日",
-  "privacy": {"title": "プライバシー", "lead": "Potbenchはすべてをお使いの端末内に保存します。アカウント、サーバー、解析、広告はありません。",
-   "sections": [
-    ["端末内に残るもの", "植え替え、鉢、用土、材料、袋の価格、記録のメモ、写真は、iPhoneまたはiPad上のアプリ専用フォルダに保存されます。アプリがそれらをどこかへ送ることはありません。iOSはバックアップ設定に従って、このフォルダを端末またはiCloudのバックアップに含めることがあります。"],
-    ["写真", "記録に追加した写真は、アプリの外で動くシステムの写真ピッカーを通じてアプリのフォルダにコピーされます。Potbenchが写真ライブラリを読むことはありません。コピーは、その記録を削除するか設定で「すべて消去」したときに削除されます。"],
-    ["リマインダー", "様子見のリマインダーは端末上でスケジュールされるローカル通知です。iOSが一度だけ通知の許可を求めます。端末の外には何も出ません。"],
-    ["購入", "Potbench ProはAppleのApp Storeを通じた買い切り購入です。決済はAppleが処理し、アプリは購入が有効かどうかだけを知ります。取引にはAppleのプライバシーポリシーが適用されます。"],
-    ["バックアップと共有", "バックアップはご自身で書き出すファイルです。共有した計画、配合、CSVファイルはシステムの共有シートを通じて、選んだ送り先に渡ります。"],
-    ["ネットワーク", "Potbench自身はネットワーク接続を開きません。接続は購入時のApp Storeと、このページのリンクだけです。"]
-   ]},
-  "support": {"title": "サポート", "lead": "その鉢にはどれだけの用土が必要？Potbenchは鉢を測り、根鉢とウォータースペースを差し引いて、用意する量をスコップ単位で示します。",
-   "sections": [
-    ["鉢を測る", "形（筒型、すり鉢型、ボウル、プランター）を選び、口径・底径・内側の高さを入力するか、よくあるサイズをタップします。鉢は入力に合わせて断面図で描かれます。単位は地域に従い、設定で切り替えられます。"],
-    ["根鉢とウォータースペース", "根鉢は、新しい鉢に対する割合、前の鉢のサイズ、または実測の幅と高さから求めます。ウォータースペースは縁からの空きの深さです。排水層と沈み込みの余裕は任意です。"],
-    ["用土", "材料ライブラリから割合で配合を組むか、自分の材料を追加します。基本の配合10種はコピーして変更できます。3つのゲージ（粒の粗さ・保水・排水）は材料の目安であり、特定の植物への助言ではありません。"],
-    ["スコップ、袋、費用", "手元のスコップを選ぶと各材料が杯数で表示されます。材料ごとに袋のサイズと価格を一度登録すると、植え替えに必要な袋数と費用が表示されます（Pro）。"],
-    ["植え替えと記録", "材料を入れながらチェックし、実際の量を直し、様子を見る週を選べば植え替え完了です。メモと写真は記録に続きます。「記録」タブにはすべての植物の記録が並びます。"],
-    ["まとめて配合（Pro）", "同じ用土を使う計画中の植え替えを合計し、全株分の杯数と袋数を1回で出します。"],
-    ["バックアップ", "設定 › バックアップを書き出す は保管用のファイルを作ります。バックアップから復元 は端末内のデータをそのファイルで置き換えます。すべて消去 はデータと写真をすべて削除します。"]
-   ],
-   "faq": [
-    ["なぜ一つの数字ではなく幅で示すのですか？", "鉢は完全な形ではなく、根鉢も概算です。数字は計画用の目安で、幅は見込まれるばらつきを示します。"],
-    ["Potbenchは私の植物に合う用土を教えてくれますか？", "いいえ。選んだ配合に対する量を計算します。基本の配合は調整のための一般的なレシピで、診断や生育の保証ではありません。"],
-    ["別の端末でProを購入しました。", "新しい端末で同じApple Accountにサインインし、設定 › 購入を復元 を開いてください。"],
-    ["言語を変えるには？", "設定 › アプリの言語 でiOSのアプリごとの言語設定が開きます。"]
-   ]}
- },
- "ko": {"languages": "언어", "contact": "문의", "updated": "최종 업데이트: 2026년 10월 20일",
-  "privacy": {"title": "개인정보 처리방침", "lead": "Potbench는 모든 것을 기기 안에 보관합니다. 계정도, 서버도, 분석도, 광고도 없습니다.",
-   "sections": [
-    ["기기에 남는 것", "분갈이, 화분, 배합토, 재료, 포대 가격, 일지 메모, 사진은 iPhone 또는 iPad의 앱 전용 폴더에 저장됩니다. 앱은 이를 어디에도 보내지 않습니다. iOS는 사용자의 백업 설정에 따라 이 폴더를 기기 또는 iCloud 백업에 포함할 수 있습니다."],
-    ["사진", "일지에 추가한 사진은 앱 밖에서 동작하는 시스템 사진 선택기를 통해 앱 폴더로 복사됩니다. Potbench는 사진 보관함을 읽지 않습니다. 복사본은 항목을 삭제하거나 설정에서 모두 지울 때 삭제됩니다."],
-    ["알림", "다시 살펴보기 알림은 기기에서 예약되는 로컬 알림입니다. iOS가 한 번 알림 권한을 묻습니다. 기기 밖으로 나가는 것은 없습니다."],
-    ["구입", "Potbench Pro는 Apple App Store를 통한 한 번 구입입니다. 결제는 Apple이 처리하며 앱은 구입이 유효한지만 압니다. 거래에는 Apple의 개인정보 처리방침이 적용됩니다."],
-    ["백업과 공유", "백업은 직접 내보내는 파일입니다. 공유한 계획, 배합, CSV 파일은 시스템 공유 시트를 통해 선택한 곳으로 전달됩니다."],
-    ["네트워크", "Potbench는 자체 네트워크 연결을 열지 않습니다. 연결은 구입 시 App Store와 이 페이지의 링크뿐입니다."]
-   ]},
-  "support": {"title": "지원", "lead": "저 화분에는 배합토가 얼마나 필요할까요? Potbench는 화분을 재고 뿌리 뭉치와 물 공간을 뺀 뒤 준비할 양을 스쿱 단위로 알려 줍니다.",
-   "sections": [
-    ["화분 재기", "모양(원통, 위가 넓은 화분, 볼, 사각 플랜터)을 고르고 윗지름, 밑지름, 안쪽 높이를 입력하거나 자주 쓰는 크기를 탭하세요. 화분은 입력하는 대로 단면도로 그려집니다. 단위는 지역을 따르며 설정에서 바꿀 수 있습니다."],
-    ["뿌리 뭉치와 물 공간", "뿌리 뭉치는 새 화분 대비 비율, 이전 화분 크기, 또는 실측 너비와 높이로 계산합니다. 물 공간은 가장자리에서 비어 있는 깊이입니다. 배수층과 가라앉음 여유분은 선택 사항입니다."],
-    ["배합토", "재료 라이브러리에서 비율로 배합을 만들거나 내 재료를 추가하세요. 기본 배합 10가지는 복사해서 바꿀 수 있습니다. 세 가지 게이지(입자 굵기, 보수력, 배수)는 재료에 대한 참고값이며 특정 식물에 대한 조언이 아닙니다."],
-    ["스쿱, 포대, 비용", "손에 든 스쿱을 고르면 재료마다 스쿱 수가 나옵니다. 재료별로 포대 크기와 가격을 한 번 적어 두면 분갈이에 필요한 포대 수와 비용이 보입니다(Pro)."],
-    ["분갈이와 일지", "넣는 대로 재료를 체크하고 실제 사용량을 고친 뒤 다시 살펴볼 주를 고르면 분갈이가 완료됩니다. 메모와 사진은 일지에 이어지며, 일지 탭에는 모든 식물의 항목이 나열됩니다."],
-    ["한꺼번에 배합(Pro)", "같은 배합토를 쓰는 계획된 분갈이를 하나로 합쳐 전체 스쿱 수와 포대 수를 냅니다."],
-    ["백업", "설정 › 백업 내보내기는 직접 보관할 파일을 만듭니다. 백업에서 복원은 기기의 데이터를 그 파일로 바꿉니다. 모두 지우기는 데이터와 사진을 모두 삭제합니다."]
-   ],
-   "faq": [
-    ["왜 하나의 숫자가 아니라 범위인가요?", "화분은 완벽한 모양이 드물고 뿌리 뭉치는 어림값입니다. 숫자는 계획용 추정치이고 범위는 예상되는 편차입니다."],
-    ["Potbench가 내 식물에 맞는 배합토를 알려 주나요?", "아니요. 선택한 배합에 대한 양을 계산합니다. 기본 배합은 조정을 위한 흔한 레시피일 뿐 진단이나 생육 보장이 아닙니다."],
-    ["다른 기기에서 Pro를 샀어요.", "같은 Apple 계정으로 로그인한 새 기기에서 설정 › 구입 항목 복원을 여세요."],
-    ["언어는 어떻게 바꾸나요?", "설정 › 앱 언어에서 iOS의 앱별 언어 설정이 열립니다."]
-   ]}
- },
- "zh-Hans": {"languages": "语言", "contact": "联系", "updated": "最后更新：2026 年 10 月 20 日",
-  "privacy": {"title": "隐私政策", "lead": "Potbench 把一切都留在你的设备上。没有账户、没有服务器、没有分析、没有广告。",
-   "sections": [
-    ["留在设备上的内容", "换盆、花盆、配土、材料、袋装价格、日志笔记和照片都保存在 iPhone 或 iPad 上 App 自己的文件夹里。App 不会把它们发送到任何地方。iOS 可能按照你的备份设置把该文件夹包含在设备或 iCloud 备份中。"],
-    ["照片", "添加到日志的照片通过在 App 之外运行的系统照片选择器复制到 App 文件夹；Potbench 从不读取你的照片图库。删除该条目或在设置中抹掉全部内容时，副本随之删除。"],
-    ["提醒", "回头查看的提醒是在设备上安排的本地通知。iOS 会询问一次通知权限；没有任何内容离开设备。"],
-    ["购买", "Potbench Pro 是通过 Apple App Store 完成的一次性购买。付款由 Apple 处理；App 只知道购买是否有效。交易适用 Apple 的隐私政策。"],
-    ["备份与分享", "备份是你自己导出的文件。分享的计划、配土批次和 CSV 文件通过系统共享表送到你选择的目的地。"],
-    ["网络", "Potbench 自身不打开任何网络连接。唯一的连接是购买时的 App Store，以及本页上的链接。"]
-   ]},
-  "support": {"title": "支持", "lead": "那个花盆要多少配土？Potbench 量好花盆，扣掉根团和浇水空间，再按勺告诉你该备多少。",
-   "sections": [
-    ["量一个花盆", "选择形状（直筒、上宽下窄、碗形或种植箱），输入盆口、盆底和内部高度，或点一下常见尺寸。花盆会随输入画成剖面图。单位跟随你的地区，可在设置中切换。"],
-    ["根团与浇水空间", "根团可按占新盆的比例、按旧盆尺寸，或按实测宽高来计。浇水空间是距盆沿的空置深度；排水层和沉降余量可选。"],
-    ["配土", "从材料库按份数配一款配土，或添加自己的材料。十款基础配方可复制后修改。三个刻度（颗粒、保水、排水）是对材料的参考描述，不是针对某种植物的建议。"],
-    ["勺数、袋数与花费", "选你手里的勺，每种材料都换算成勺数。每种材料填一次袋装规格和价格，换盆就会显示要买几袋和花费（Pro）。"],
-    ["换盆与日志", "倒一种勾一种，修正实际用量，选一个回头查看的周数，换盆完成。笔记和照片随后记入日志；日志标签页列出所有植物的条目。"],
-    ["合批配土（Pro）", "使用同一配土的多次计划换盆会合计成一批，给出全部的勺数和袋数。"],
-    ["备份", "设置 › 导出备份会生成一个由你保管的文件；从备份恢复会用该文件替换设备上的数据。全部抹掉会删除所有数据和照片。"]
-   ],
-   "faq": [
-    ["为什么给出区间而不是一个数？", "花盆很少是完美的几何形状，根团也只是估算。数字是计划估算，区间表示可能的偏差。"],
-    ["Potbench 会告诉我植物需要哪种配土吗？", "不会。它只为你选择的配土计算用量。基础配方是常见配方，供你调整，不是诊断，也不保证植物的生长。"],
-    ["我在另一台设备上买了 Pro。", "在新设备上用同一个 Apple 账户登录，打开设置 › 恢复购买。"],
-    ["如何更改语言？", "设置 › App 语言会打开 iOS 的按 App 设置语言的页面。"]
-   ]}
- },
- "ru": {"languages": "Языки", "contact": "Контакты", "updated": "Обновлено: 20 октября 2026",
-  "privacy": {"title": "Конфиденциальность", "lead": "Potbench хранит всё на вашем устройстве. Ни аккаунта, ни сервера, ни аналитики, ни рекламы.",
-   "sections": [
-    ["Что остаётся на устройстве", "Пересадки, горшки, смеси, материалы, цены мешков, заметки журнала и фото хранятся в собственной папке приложения на iPhone или iPad. Приложение никуда их не отправляет. iOS может включить эту папку в резервную копию устройства или iCloud согласно вашим настройкам."],
-    ["Фото", "Фото, добавленное в журнал, копируется в папку приложения через системный выбор фото, который работает вне приложения; Potbench никогда не читает вашу медиатеку. Копия удаляется, когда вы удаляете запись или стираете всё в настройках."],
-    ["Напоминания", "Напоминание — локальное уведомление, запланированное на устройстве. iOS один раз спрашивает разрешение; ничего не покидает устройство."],
-    ["Покупки", "Potbench Pro — разовая покупка через App Store Apple. Платёж обрабатывает Apple; приложение знает только, активна ли покупка. К сделке применяется политика конфиденциальности Apple."],
-    ["Резервные копии и обмен", "Резервная копия — файл, который вы экспортируете сами. Планы, партии и CSV-файлы уходят через системное окно «Поделиться» туда, куда вы выберете."],
-    ["Сеть", "Potbench не открывает собственных сетевых соединений. Единственные соединения — App Store при покупке и ссылки на этой странице."]
-   ]},
-  "support": {"title": "Поддержка", "lead": "Сколько смеси нужно этому горшку? Potbench измеряет горшок, вычитает ком и место под полив и говорит, что замешать, в совках.",
-   "sections": [
-    ["Измерить горшок", "Выберите форму (прямой, конусный, плошка или ящик), введите верх, дно и внутреннюю высоту или нажмите ходовой размер. Горшок рисуется в разрезе. Единицы следуют региону и меняются в настройках."],
-    ["Ком и место под полив", "Ком считается как доля нового горшка, по размеру старого горшка или по измеренным ширине и высоте. Место под полив — пустая глубина от края; дренажный слой и запас на усадку необязательны."],
-    ["Смеси", "Соберите смесь в частях из библиотеки материалов или добавьте свой. Десять базовых смесей можно скопировать и изменить. Три шкалы (фракция, держит воду, дренаж) описывают материалы; это не совет для конкретного растения."],
-    ["Совки, мешки и стоимость", "Выберите совок, который держите, и каждый материал выйдет в совках. Укажите один раз размер и цену мешка для материала, и пересадка покажет мешки и стоимость (Pro)."],
-    ["Пересадить и журнал", "Отмечайте материалы по мере засыпки, поправьте, сколько ушло, выберите неделю проверки — растение пересажено. Заметки и фото идут в журнал; вкладка Журнал показывает все записи."],
-    ["Партия на коллекцию (Pro)", "Несколько запланированных пересадок с одной смесью складываются в одну партию, с совками и мешками на всех."],
-    ["Резервные копии", "Настройки › Экспорт резервной копии создаёт файл, который вы храните; Восстановить из копии заменяет данные на устройстве. Стереть всё удаляет данные и фото."]
-   ],
-   "faq": [
-    ["Почему диапазон, а не одно число?", "Горшки редко бывают идеальной формы, а ком приблизителен. Число — оценка для планирования; диапазон показывает ожидаемый разброс."],
-    ["Говорит ли Potbench, какая смесь нужна моему растению?", "Нет. Он считает количества для выбранной вами смеси. Базовые смеси — распространённые рецепты для настройки, а не диагноз."],
-    ["Я купил Pro на другом устройстве.", "Откройте Настройки › Восстановить покупки на новом устройстве с тем же Apple Account."],
-    ["Как сменить язык?", "Настройки › Язык приложения открывает настройку языка приложения в iOS."]
-   ]}
- },
- "tr": {"languages": "Diller", "contact": "İletişim", "updated": "Son güncelleme: 20 Ekim 2026",
-  "privacy": {"title": "Gizlilik politikası", "lead": "Potbench her şeyi cihazında tutar. Hesap yok, sunucu yok, analiz yok, reklam yok.",
-   "sections": [
-    ["Cihazda kalanlar", "Saksı değişimleri, saksılar, karışımlar, malzemeler, torba fiyatları, günlük notları ve fotoğraflar iPhone ya da iPad'inde uygulamanın kendi klasöründe saklanır. Uygulama bunları hiçbir yere göndermez. iOS, yedekleme ayarlarına göre bu klasörü cihaz ya da iCloud yedeğine katabilir."],
-    ["Fotoğraflar", "Günlüğe eklediğin fotoğraf, uygulamanın dışında çalışan sistem fotoğraf seçicisiyle uygulama klasörüne kopyalanır; Potbench fotoğraf arşivini okumaz. Kaydı kaldırdığında ya da Ayarlar'da her şeyi sildiğinde kopya silinir."],
-    ["Hatırlatmalar", "Yeniden bakma hatırlatması cihazda zamanlanan yerel bir bildirimdir. iOS bildirim iznini bir kez sorar; hiçbir şey cihazdan çıkmaz."],
-    ["Satın almalar", "Potbench Pro, Apple App Store üzerinden tek seferlik bir satın almadır. Ödemeyi Apple işler; uygulama yalnızca satın almanın geçerli olup olmadığını öğrenir. İşleme Apple'ın gizlilik politikası uygulanır."],
-    ["Yedekler ve paylaşım", "Yedek, kendi dışa aktardığın bir dosyadır. Paylaşılan planlar, harmanlar ve CSV dosyaları sistem paylaşım sayfası üzerinden seçtiğin yere gider."],
-    ["Ağ", "Potbench kendi başına hiçbir ağ bağlantısı açmaz. Tek bağlantılar satın alma için App Store ve bu sayfadaki bağlantılardır."]
-   ]},
-  "support": {"title": "Destek", "lead": "O saksıya ne kadar karışım gerekiyor? Potbench saksıyı ölçer, kök topunu ve sulama payını düşer ve ne hazırlayacağını kepçe kepçe söyler.",
-   "sections": [
-    ["Saksı ölçmek", "Biçimi seç (düz, konik, kâse ya da kasa), ağzı, tabanı ve iç yüksekliği yaz ya da hazır bir boya dokun. Saksı kesit olarak çizilir. Birimler bölgeni izler, Ayarlar'dan değiştirilir."],
-    ["Kök topu ve sulama payı", "Kök topunu yeni saksının payı olarak, eski saksının boyundan ya da ölçülen en ve yükseklikten hesapla. Sulama payı ağızdan boş kalan derinliktir; drenaj katmanı ve çökme payı isteğe bağlıdır."],
-    ["Karışımlar", "Malzeme kitaplığından ölçekle bir karışım kur ya da kendi malzemeni ekle. On başlangıç karışımı kopyalanıp değiştirilebilir. Üç gösterge (yapı, su tutar, süzer) malzemeler için referanstır; belirli bir bitki için öneri değildir."],
-    ["Kepçe, torba ve maliyet", "Elindeki kepçeyi seç; her malzeme kepçe sayısı olarak gelir. Her malzeme için torba boyunu ve fiyatını bir kez gir; değişim torba sayısını ve maliyeti gösterir (Pro)."],
-    ["Saksıya alma ve günlük", "Malzemeleri koydukça işaretle, gerçekten kullandığını düzelt, yeniden bakma haftasını seç; bitki saksıya alındı. Notlar ve fotoğraflar günlükte devam eder; Günlük sekmesi bütün bitkilerin kayıtlarını listeler."],
-    ["Toplu harman (Pro)", "Aynı karışımı kullanan planlı değişimler tek harmanda toplanır; kepçeler ve torbalar hepsi için hesaplanır."],
-    ["Yedekler", "Ayarlar › Yedeği dışa aktar sende kalacak bir dosya yazar; Yedekten geri yükle cihazdakileri onunla değiştirir. Her şeyi sil bütün verileri ve fotoğrafları kaldırır."]
-   ],
-   "faq": [
-    ["Neden tek sayı değil de aralık?", "Saksılar nadiren kusursuz biçimdedir, kök topları da yaklaşıktır. Rakam planlama tahminidir; aralık beklenen sapmayı gösterir."],
-    ["Potbench bitkime hangi karışımın gerektiğini söyler mi?", "Hayır. Seçtiğin karışım için miktarları hesaplar. Başlangıç karışımları ayarlanacak yaygın tariflerdir; teşhis ya da garanti değildir."],
-    ["Pro'yu başka bir cihazda aldım.", "Aynı Apple hesabıyla yeni cihazda Ayarlar › Satın almaları geri yükle'yi aç."],
-    ["Dili nasıl değiştiririm?", "Ayarlar › Uygulama dili, iOS'un uygulamaya özel dil ayarını açar."]
-   ]}
- }
+  "en-US": {
+   "languages": "Languages",
+   "contact": "Contact",
+   "updated": "Last updated: 4 November 2026",
+   "privacy": {
+    "title": "Privacy",
+    "lead": "Potbench keeps everything on your device. It has no account, no server, no analytics and no advertising.",
+    "sections": [
+     [
+      "What stays on the device",
+      "Your repots, pots, mixes, materials, bag prices, journal notes and photos are stored in the app's own folder on your iPhone or iPad. The app never sends them anywhere. iOS may include that folder in your device or iCloud backup according to your own backup settings."
+     ],
+     [
+      "Photos",
+      "A photo you add to the journal is copied into the app's folder through the system photo picker, which runs outside the app; Potbench never reads your photo library. The copy is deleted when you remove the entry or erase everything in Settings."
+     ],
+     [
+      "Reminders",
+      "A check-back reminder is a local notification scheduled on the device. iOS asks for notification permission the first time you choose one; nothing about it leaves the device."
+     ],
+     [
+      "Purchases",
+      "Potbench Pro is a one-time purchase handled by Apple's App Store. Apple processes the payment; the app only learns whether the purchase is active. Apple's privacy policy applies to the transaction."
+     ],
+     [
+      "Backups and sharing",
+      "A backup is a file you export yourself. Shared plans, batches and CSV files go through the system share sheet to the destination you choose, and that destination handles the copy under its own practices."
+     ],
+     [
+      "Network",
+      "Potbench opens no network connection of its own. The only connections are the App Store's, for the purchase, and the links on this page."
+     ]
+    ]
+   },
+   "support": {
+    "title": "Support",
+    "lead": "Potbench measures the pot, takes away the root ball and the headspace, shows how the amount was worked out, and counts the scoops with you as you pour.",
+    "sections": [
+     [
+      "Measure the pot",
+      "Pick the shape (straight, tapered, bowl or planter box) and type the rim, the base and the inside height, or pick a common size. US nursery sizes (#1, #2, #3, #5) and European C-containers are there too; brands differ, so check the base of the pot. If you filled the pot with water and measured it, type that volume: it wins over the measurements. Units follow your region and can be switched in Settings."
+     ],
+     [
+      "Root ball and the step up",
+      "When a plant moves up a size, choose Moving up and the old pot: its volume counts as the root ball, less what you loosen away. Potbench also compares the two pots; guides suggest a pot 1 to 2 inches (2.5 to 5 cm) wider, and a note says when the new pot is much bigger. For a cutting, use a share of the pot; for an odd root ball, type its width and height."
+     ],
+     [
+      "Headspace and settling",
+      "Headspace is the empty depth below the rim, about 1 inch (2.5 cm), half that in small pots. Fresh mix sinks on the first watering, about 15 % for bark and coir mixes and 30 to 40 % with garden soil, so that much extra is prepared. The lines under the amount show each step, and they add up to the number shown."
+     ],
+     [
+      "Why there is no drainage layer",
+      "University extension guides advise against a layer of gravel or shards at the bottom of a pot: it does not help water drain and keeps the soil above it wetter. Potbench fills the pot with one mix from top to bottom. A bottom filler is offered only for very large planters, to save mix and weight."
+     ],
+     [
+      "Mixes",
+      "Build a mix by parts from the material library, add your own material, or copy one of ten starting recipes. The mix is drawn as a measuring jug, one layer per material. The three scales (structure, holds water, drains) describe the mix; they are not advice for a particular plant."
+     ],
+     [
+      "Measure out and pot",
+      "Choose the scoop you hold (cup, quart, half a litre and so on). Every part becomes a number of scoops, rounded to the half scoop so the scoops add up. On the measuring screen each tap on a row, or on the large key, adds a scoop; the jug fills to its line and the next material is marked. Undo takes the last scoop back. The screen stays awake while it is open. Potting keeps what really went in."
+     ],
+     [
+      "Bags and cost (Pro)",
+      "Set the bag a material comes in, as printed, and its price. US potting-mix bags are sold in dry quarts (1 qt is 1.1 L) and cubic feet; Potbench reads them that way. The plan shows how many bags to buy, what is left in the last one and the cost."
+     ],
+     [
+      "Batch plants (Pro)",
+      "Several planned repots that share a mix become one batch: one jug, one set of scoops and bags, measured out in one go. Each plant's journal keeps its share."
+     ],
+     [
+      "Journal and backups",
+      "Every repot keeps its pot, its mix and the amounts, with dated notes, photos and an optional check-back reminder. Settings › Export backup writes a file you keep; Restore from backup replaces what is on the device with it. Erase everything removes all data and photos."
+     ]
+    ],
+    "faq": [
+     [
+      "Why a range, not one number?",
+      "Pots are rarely perfect shapes and root balls are approximate. The amount is a planning estimate; the band shows the spread to expect."
+     ],
+     [
+      "Does Potbench say which mix my plant needs?",
+      "No. It works out amounts for the mix you choose. The starting recipes are common mixes to adjust, not a diagnosis or a promise about plant health."
+     ],
+     [
+      "The scoops add up to a little more than the amount.",
+      "Each material is rounded to the half scoop so that you can measure it by hand; the plan says when the rounded total differs."
+     ],
+     [
+      "I bought Pro on another device.",
+      "Open Settings › Restore purchases on the new device, signed in to the same Apple Account."
+     ],
+     [
+      "How do I change the language?",
+      "Settings › App language opens the iOS per-app language setting."
+     ]
+    ]
+   }
+  },
+  "de": {
+   "languages": "Sprachen",
+   "contact": "Kontakt",
+   "updated": "Zuletzt aktualisiert: 4. November 2026",
+   "privacy": {
+    "title": "Datenschutz",
+    "lead": "Potbench behält alles auf deinem Gerät. Kein Konto, kein Server, keine Analyse, keine Werbung.",
+    "sections": [
+     [
+      "Was auf dem Gerät bleibt",
+      "Umtopfungen, Töpfe, Mischungen, Materialien, Sackpreise, Tagebuchnotizen und Fotos liegen im eigenen Ordner der App auf deinem iPhone oder iPad. Die App sendet sie nirgendwohin. iOS kann diesen Ordner gemäß deinen Backup-Einstellungen in das Geräte- oder iCloud-Backup aufnehmen."
+     ],
+     [
+      "Fotos",
+      "Ein Foto im Tagebuch wird über die System-Fotoauswahl, die außerhalb der App läuft, in den Ordner der App kopiert; Potbench liest deine Fotomediathek nie. Die Kopie wird gelöscht, wenn du den Eintrag entfernst oder in den Einstellungen alles löschst."
+     ],
+     [
+      "Erinnerungen",
+      "Eine Erinnerung zum Nachsehen ist eine lokale Mitteilung, die auf dem Gerät geplant wird. iOS fragt beim ersten Mal nach der Erlaubnis für Mitteilungen; nichts davon verlässt das Gerät."
+     ],
+     [
+      "Käufe",
+      "Potbench Pro ist ein Einmalkauf über Apples App Store. Apple wickelt die Zahlung ab; die App erfährt nur, ob der Kauf aktiv ist. Für die Transaktion gilt Apples Datenschutzrichtlinie."
+     ],
+     [
+      "Backups und Teilen",
+      "Ein Backup ist eine Datei, die du selbst exportierst. Geteilte Pläne, Chargen und CSV-Dateien gehen über das System-Teilen an das Ziel deiner Wahl."
+     ],
+     [
+      "Netzwerk",
+      "Potbench baut keine eigene Netzwerkverbindung auf. Verbindungen gibt es nur zum App Store für den Kauf und über die Links auf dieser Seite."
+     ]
+    ]
+   },
+   "support": {
+    "title": "Support",
+    "lead": "Potbench misst den Topf, zieht Wurzelballen und Gießrand ab, zeigt, wie die Menge berechnet wurde, und zählt die Schaufeln mit dir, während du einfüllst.",
+    "sections": [
+     [
+      "Topf messen",
+      "Wähle die Form (gerade, konisch, Schale oder Pflanzkasten) und gib die Breite am Rand, am Boden und die Innenhöhe ein oder wähle eine gängige Größe. US-Kulturtopfgrößen (#1, #2, #3, #5) und europäische C-Container gibt es auch; die Marken unterscheiden sich, schau also auf den Topfboden. Hast du den Topf mit Wasser gefüllt und nachgemessen, gib dieses Volumen ein: Es hat Vorrang vor den Maßen. Die Einheiten richten sich nach deiner Region und lassen sich in den Einstellungen umstellen."
+     ],
+     [
+      "Wurzelballen und größerer Topf",
+      "Kommt eine Pflanze in einen größeren Topf, wähle „Größerer Topf“ und den alten Topf: Sein Volumen zählt als Wurzelballen, abzüglich dessen, was du ablöst. Potbench vergleicht auch die beiden Töpfe; Ratgeber empfehlen einen Topf, der 1 bis 2 Zoll (2,5 bis 5 cm) breiter ist, und ein Hinweis erscheint, wenn der neue Topf deutlich größer ist. Für einen Steckling nimm einen Anteil am Topf; bei einem ungewöhnlichen Wurzelballen gib Breite und Höhe ein."
+     ],
+     [
+      "Gießrand und Setzen",
+      "Der Gießrand ist die leere Tiefe unter dem Topfrand, etwa 1 Zoll (2,5 cm), in kleinen Töpfen halb so viel. Frische Mischung sackt beim ersten Gießen ab, bei Rinden- und Kokosmischungen um etwa 15 %, mit Gartenerde um 30 bis 40 %, deshalb wird entsprechend mehr angesetzt. Die Zeilen unter der Menge zeigen jeden Schritt, und sie ergeben zusammen die angezeigte Zahl."
+     ],
+     [
+      "Warum es keine Drainageschicht gibt",
+      "Ratgeber der Extension-Dienste an US-Universitäten raten von einer Schicht aus Kies oder Scherben am Topfboden ab: Sie hilft dem Wasser nicht beim Abfließen und hält die Erde darüber nasser. Potbench füllt den Topf von oben bis unten mit einer Mischung. Eine Bodenfüllung gibt es nur für sehr große Kübel, um Mischung und Gewicht zu sparen."
+     ],
+     [
+      "Mischungen",
+      "Stelle eine Mischung nach Teilen aus der Materialbibliothek zusammen, füge ein eigenes Material hinzu oder kopiere eine der zehn Grundmischungen. Die Mischung wird als Messbecher gezeichnet, eine Schicht pro Material. Die drei Skalen (Struktur, Hält Wasser, Drainage) beschreiben die Mischung; sie sind kein Rat für eine bestimmte Pflanze."
+     ],
+     [
+      "Abmessen und eintopfen",
+      "Wähle die Schaufel, die du in der Hand hältst (Cup, Quart, ein halber Liter und so weiter). Jeder Teil wird zu einer Anzahl Schaufeln, auf halbe Schaufeln gerundet, damit die Schaufeln zusammen aufgehen. Auf dem Messbildschirm fügt jedes Tippen auf eine Zeile oder auf die große Taste eine Schaufel hinzu; der Messbecher füllt sich bis zur Linie und das nächste Material wird markiert. „Letzte Schaufel rückgängig“ nimmt die letzte Schaufel zurück. Der Bildschirm bleibt wach, solange er geöffnet ist. Beim Eintopfen wird festgehalten, was wirklich hineinkam."
+     ],
+     [
+      "Säcke und Kosten (Pro)",
+      "Lege den Sack fest, in dem ein Material kommt, so wie aufgedruckt, und seinen Preis. US-Säcke mit Blumenerde werden in Trockenquart (1 qt sind 1,1 L) und Kubikfuß verkauft; Potbench liest sie so. Der Plan zeigt, wie viele Säcke du kaufen musst, was im letzten übrig bleibt und was es kostet."
+     ],
+     [
+      "Pflanzen bündeln (Pro)",
+      "Mehrere geplante Umtopfungen mit derselben Mischung werden zu einer Charge: ein Messbecher, ein Satz Schaufeln und Säcke, in einem Zug abgemessen. Das Tagebuch jeder Pflanze behält ihren Anteil."
+     ],
+     [
+      "Tagebuch und Backups",
+      "Jedes Umtopfen hält seinen Topf, seine Mischung und die Mengen fest, dazu Notizen mit Datum, Fotos und eine optionale Erinnerung zum Nachsehen. Einstellungen › Backup exportieren schreibt eine Datei, die du aufbewahrst; Aus Backup wiederherstellen ersetzt damit, was auf dem Gerät ist. Alles löschen entfernt alle Daten und Fotos."
+     ]
+    ],
+    "faq": [
+     [
+      "Warum eine Spanne und nicht eine Zahl?",
+      "Töpfe sind selten perfekte Formen, und Wurzelballen sind ungefähr. Die Menge ist eine Planungsschätzung; das Band zeigt die zu erwartende Streuung."
+     ],
+     [
+      "Sagt Potbench, welche Mischung meine Pflanze braucht?",
+      "Nein. Es berechnet Mengen für die Mischung, die du wählst. Die Grundmischungen sind gängige Mischungen zum Anpassen, keine Diagnose und kein Versprechen für die Gesundheit der Pflanze."
+     ],
+     [
+      "Die Schaufeln ergeben etwas mehr als die Menge.",
+      "Jedes Material wird auf halbe Schaufeln gerundet, damit du es von Hand abmessen kannst; der Plan sagt, wenn die gerundete Summe abweicht."
+     ],
+     [
+      "Ich habe Pro auf einem anderen Gerät gekauft.",
+      "Öffne auf dem neuen Gerät Einstellungen › Käufe wiederherstellen, angemeldet mit demselben Apple-Account."
+     ],
+     [
+      "Wie ändere ich die Sprache?",
+      "Einstellungen › App-Sprache öffnet die iOS-Einstellung für die Sprache pro App."
+     ]
+    ]
+   }
+  },
+  "fr": {
+   "languages": "Langues",
+   "contact": "Contact",
+   "updated": "Dernière mise à jour : 4 novembre 2026",
+   "privacy": {
+    "title": "Confidentialité",
+    "lead": "Potbench garde tout sur votre appareil. Pas de compte, pas de serveur, pas d’analyse, pas de publicité.",
+    "sections": [
+     [
+      "Ce qui reste sur l’appareil",
+      "Vos rempotages, pots, substrats, matières, prix des sacs, notes de journal et photos sont conservés dans le dossier de l’app sur votre iPhone ou iPad. L’app ne les envoie nulle part. iOS peut inclure ce dossier dans la sauvegarde de l’appareil ou iCloud selon vos réglages."
+     ],
+     [
+      "Photos",
+      "Une photo ajoutée au journal est copiée dans le dossier de l’app via le sélecteur de photos du système, qui s’exécute hors de l’app ; Potbench ne lit jamais votre photothèque. La copie est supprimée quand vous retirez l’entrée ou effacez tout dans les réglages."
+     ],
+     [
+      "Rappels",
+      "Un rappel pour revenir voir est une notification locale programmée sur l’appareil. iOS demande l’autorisation d’envoyer des notifications la première fois que vous en choisissez un ; rien à ce sujet ne quitte l’appareil."
+     ],
+     [
+      "Achats",
+      "Potbench Pro est un achat unique géré par l’App Store d’Apple. Apple traite le paiement ; l’app sait seulement si l’achat est actif. La politique de confidentialité d’Apple s’applique à la transaction."
+     ],
+     [
+      "Sauvegardes et partage",
+      "Une sauvegarde est un fichier que vous exportez vous-même. Les plans, lots et fichiers CSV partagés passent par la feuille de partage du système vers la destination de votre choix."
+     ],
+     [
+      "Réseau",
+      "Potbench n’ouvre aucune connexion réseau. Les seules connexions sont celles de l’App Store, pour l’achat, et les liens de cette page."
+     ]
+    ]
+   },
+   "support": {
+    "title": "Assistance",
+    "lead": "Potbench mesure le pot, retire la motte et l’espace d’arrosage, montre comment la quantité a été calculée et compte les pelletées avec vous pendant que vous versez.",
+    "sections": [
+     [
+      "Mesurer le pot",
+      "Choisissez la forme (droit, évasé, coupe ou jardinière) et saisissez le bord, la base et la hauteur intérieure, ou choisissez une taille courante. Les tailles de pépinière américaines (#1, #2, #3, #5) et les conteneurs C européens y sont aussi ; les marques diffèrent, vérifiez donc le fond du pot. Si vous avez rempli le pot d’eau pour le mesurer, saisissez ce volume : il l’emporte sur les mesures. Les unités suivent votre région et se changent dans les Réglages."
+     ],
+     [
+      "La motte et le pot plus grand",
+      "Quand une plante passe dans un pot plus grand, choisissez « Pot plus grand » et l’ancien pot : son volume compte comme motte, moins ce que vous détachez. Potbench compare aussi les deux pots ; les guides suggèrent un pot plus large de 1 à 2 pouces (2,5 à 5 cm), et une note signale quand le nouveau pot est bien plus grand. Pour une bouture, utilisez une part du pot ; pour une motte inhabituelle, saisissez sa largeur et sa hauteur."
+     ],
+     [
+      "Espace d’arrosage et tassement",
+      "L’espace d’arrosage est la profondeur vide sous le bord, environ 1 pouce (2,5 cm), moitié moins dans les petits pots. Le substrat frais se tasse au premier arrosage d’environ 15 % (écorce et coco) ou de 30 à 40 % (avec de la terre de jardin) ; on prépare donc cette quantité en plus. Les lignes sous la quantité montrent chaque étape et s’additionnent pour donner le nombre affiché."
+     ],
+     [
+      "Pourquoi il n’y a pas de couche de drainage",
+      "Les guides des services d’extension universitaires déconseillent une couche de gravier ou de tessons au fond d’un pot : elle n’aide pas l’eau à s’écouler et garde la terre au-dessus plus humide. Potbench remplit le pot avec un seul substrat, de haut en bas. Un remplissage de fond n’est proposé que pour de très grandes jardinières, afin d’économiser du substrat et du poids."
+     ],
+     [
+      "Substrats",
+      "Composez un substrat en parts à partir de la bibliothèque de matériaux, ajoutez votre propre matériau ou copiez l’une des dix recettes de départ. Le substrat est dessiné comme un broc gradué, une couche par matériau. Les trois échelles (structure, retient l’eau, draine) décrivent le substrat ; ce ne sont pas des conseils pour une plante en particulier."
+     ],
+     [
+      "Mesurer et rempoter",
+      "Choisissez la pelle que vous tenez (cup, quart, demi-litre, etc.). Chaque part devient un nombre de pelletées, arrondi à la demi-pelletée pour que les pelletées s’additionnent. Sur l’écran de mesure, chaque toucher sur une ligne, ou sur la grande touche, ajoute une pelletée ; le broc se remplit jusqu’à son trait et le matériau suivant est signalé. « Annuler la dernière pelletée » retire la dernière. L’écran reste allumé tant qu’il est ouvert. Le rempotage conserve ce qui a vraiment été versé."
+     ],
+     [
+      "Sacs et coût (Pro)",
+      "Indiquez le sac dans lequel vient un matériau, tel qu’il est imprimé, et son prix. Les sacs de terreau américains se vendent en quarts secs (1 qt vaut 1,1 L) et en pieds cubes ; Potbench les lit ainsi. Le plan indique combien de sacs acheter, ce qui reste dans le dernier et le coût."
+     ],
+     [
+      "Grouper des plantes (Pro)",
+      "Plusieurs rempotages prévus qui partagent un substrat forment un seul lot : un broc, un jeu de pelletées et de sacs, mesurés en une fois. Le journal de chaque plante garde sa part."
+     ],
+     [
+      "Journal et sauvegardes",
+      "Chaque rempotage conserve son pot, son substrat et les quantités, avec des notes datées, des photos et un rappel facultatif pour revenir voir. Réglages › Exporter une sauvegarde écrit un fichier que vous gardez ; Restaurer une sauvegarde remplace ce qui est sur l’appareil par son contenu. Tout effacer supprime toutes les données et photos."
+     ]
+    ],
+    "faq": [
+     [
+      "Pourquoi une fourchette plutôt qu’un seul nombre ?",
+      "Les pots sont rarement des formes parfaites et les mottes sont approximatives. La quantité est une estimation de planification ; la bande montre l’écart à prévoir."
+     ],
+     [
+      "Potbench dit-il quel substrat il faut à ma plante ?",
+      "Non. Il calcule les quantités pour le substrat que vous choisissez. Les recettes de départ sont des mélanges courants à ajuster, pas un diagnostic ni une promesse sur la santé de la plante."
+     ],
+     [
+      "Les pelletées font un peu plus que la quantité.",
+      "Chaque matériau est arrondi à la demi-pelletée pour que vous puissiez le mesurer à la main ; le plan indique quand le total arrondi diffère."
+     ],
+     [
+      "J’ai acheté Pro sur un autre appareil.",
+      "Ouvrez Réglages › Restaurer les achats sur le nouvel appareil, connecté au même compte Apple."
+     ],
+     [
+      "Comment changer la langue ?",
+      "Réglages › Langue de l’app ouvre le réglage de langue par app d’iOS."
+     ]
+    ]
+   }
+  },
+  "es-419": {
+   "languages": "Idiomas",
+   "contact": "Contacto",
+   "updated": "Última actualización: 4 de noviembre de 2026",
+   "privacy": {
+    "title": "Privacidad",
+    "lead": "Potbench guarda todo en tu dispositivo. Sin cuenta, sin servidor, sin analítica y sin publicidad.",
+    "sections": [
+     [
+      "Lo que queda en el dispositivo",
+      "Tus trasplantes, macetas, sustratos, materiales, precios de sacos, notas y fotos se guardan en la carpeta de la app en tu iPhone o iPad. La app nunca los envía a ningún sitio. iOS puede incluir esa carpeta en el respaldo del dispositivo o de iCloud según tus ajustes."
+     ],
+     [
+      "Fotos",
+      "Una foto añadida al diario se copia a la carpeta de la app mediante el selector de fotos del sistema, que corre fuera de la app; Potbench nunca lee tu fototeca. La copia se borra al quitar la entrada o al borrar todo en Ajustes."
+     ],
+     [
+      "Recordatorios",
+      "Un recordatorio para volver a mirar es una notificación local programada en el dispositivo. iOS pide permiso para notificaciones la primera vez que eliges uno; nada de esto sale del dispositivo."
+     ],
+     [
+      "Compras",
+      "Potbench Pro es una compra única gestionada por el App Store de Apple. Apple procesa el pago; la app solo sabe si la compra está activa. A la transacción se aplica la política de privacidad de Apple."
+     ],
+     [
+      "Respaldos y compartir",
+      "Un respaldo es un archivo que exportas tú. Los planes, tandas y archivos CSV compartidos pasan por la hoja de compartir del sistema al destino que elijas."
+     ],
+     [
+      "Red",
+      "Potbench no abre ninguna conexión de red propia. Las únicas conexiones son las del App Store, para la compra, y los enlaces de esta página."
+     ]
+    ]
+   },
+   "support": {
+    "title": "Soporte",
+    "lead": "Potbench mide la maceta, resta el cepellón y el espacio de riego, muestra cómo se calculó la cantidad y cuenta las paladas contigo mientras viertes.",
+    "sections": [
+     [
+      "Medir la maceta",
+      "Elige la forma (recta, cónica, cuenco o jardinera) y escribe el borde, la base y la altura interior, o elige un tamaño habitual. También están los tamaños de vivero de EE. UU. (#1, #2, #3, #5) y los contenedores C europeos; las marcas difieren, así que mira la base de la maceta. Si llenaste la maceta de agua y la mediste, escribe ese volumen: prevalece sobre las medidas. Las unidades siguen tu región y se cambian en Ajustes."
+     ],
+     [
+      "Cepellón y salto de talla",
+      "Cuando una planta sube de talla, elige Subir de talla y la maceta anterior: su volumen cuenta como cepellón, menos lo que quitas al aflojarlo. Potbench también compara las dos macetas; las guías sugieren una maceta de 1 a 2 in (2,5 a 5 cm) más ancha, y una nota avisa cuando la nueva es mucho mayor. Para un esqueje, usa una parte de la maceta; para un cepellón de forma irregular, escribe su ancho y su alto."
+     ],
+     [
+      "Espacio de riego y asentamiento",
+      "El espacio de riego es la profundidad vacía bajo el borde, unos 2,5 cm (1 in), la mitad en macetas pequeñas. El sustrato nuevo se hunde con el primer riego. En las mezclas de corteza y coco la bajada ronda el 15 %; con tierra de jardín, del 30 al 40 %. Se prepara ese margen de más. Las líneas bajo la cantidad muestran cada paso y suman la cifra indicada."
+     ],
+     [
+      "Por qué no hay capa de drenaje",
+      "Las guías de extensión universitaria desaconsejan poner una capa de grava o de fragmentos de maceta en el fondo: no ayuda a que el agua drene y mantiene más húmedo el sustrato que queda encima. Potbench llena la maceta con un solo sustrato de arriba abajo. Solo se ofrece un relleno de fondo para jardineras muy grandes, para ahorrar sustrato y peso."
+     ],
+     [
+      "Sustratos",
+      "Crea un sustrato por partes con la biblioteca de materiales, añade un material propio o copia una de las diez recetas de partida. El sustrato se dibuja como una jarra medidora, con una capa por material. Los tres indicadores (estructura, retiene agua, drena) describen el sustrato; no son un consejo para una planta concreta."
+     ],
+     [
+      "Medir y trasplantar",
+      "Elige la pala que tienes en la mano (taza, cuarto, medio litro, etc.). Cada parte se convierte en un número de paladas, redondeado a la media palada para que las paladas sumen. En la pantalla de medir, cada toque en una fila, o en la tecla grande, añade una palada; la jarra se llena hasta su línea y se marca el siguiente material. Deshacer quita la última palada. La pantalla se queda encendida mientras está abierta. Al trasplantar se guarda lo que de verdad entró."
+     ],
+     [
+      "Sacos y coste (Pro)",
+      "Indica el saco en que viene un material, tal como está impreso, y su precio. Los sacos de sustrato de EE. UU. se venden en cuartos secos (1 qt son 1,1 L) y en pies cúbicos; Potbench los lee así. El plan muestra cuántos sacos comprar, lo que queda en el último y el coste."
+     ],
+     [
+      "Plantas en tanda (Pro)",
+      "Varios trasplantes planificados que comparten sustrato se convierten en una tanda: una jarra, un juego de paladas y de sacos, medidos de una vez. El diario de cada planta guarda su parte."
+     ],
+     [
+      "Diario y copias de seguridad",
+      "Cada trasplante guarda su maceta, su sustrato y las cantidades, con notas con fecha, fotos y un recordatorio opcional para volver a mirar. Ajustes › Exportar copia de seguridad escribe un archivo que guardas tú; Restaurar copia de seguridad reemplaza con él lo que hay en el dispositivo. Borrar todo elimina todos los datos y las fotos."
+     ]
+    ],
+    "faq": [
+     [
+      "¿Por qué un rango y no una sola cifra?",
+      "Las macetas rara vez son formas perfectas y los cepellones son aproximados. La cantidad es una estimación para planificar; el rango muestra la variación que cabe esperar."
+     ],
+     [
+      "¿Potbench dice qué sustrato necesita mi planta?",
+      "No. Calcula cantidades para el sustrato que elijas. Las recetas de partida son mezclas habituales para ajustar, no un diagnóstico ni una promesa sobre la salud de la planta."
+     ],
+     [
+      "Las paladas suman un poco más que la cantidad.",
+      "Cada material se redondea a la media palada para poder medirlo a mano; el plan avisa cuando el total redondeado difiere."
+     ],
+     [
+      "Compré Pro en otro dispositivo.",
+      "Abre Ajustes › Restaurar compras en el dispositivo nuevo, con la misma cuenta de Apple."
+     ],
+     [
+      "¿Cómo cambio el idioma?",
+      "Ajustes › Idioma de la app abre el ajuste de idioma por app de iOS."
+     ]
+    ]
+   }
+  },
+  "it": {
+   "languages": "Lingue",
+   "contact": "Contatti",
+   "updated": "Ultimo aggiornamento: 4 novembre 2026",
+   "privacy": {
+    "title": "Privacy",
+    "lead": "Potbench tiene tutto sul tuo dispositivo. Niente account, niente server, niente analisi, niente pubblicità.",
+    "sections": [
+     [
+      "Cosa resta sul dispositivo",
+      "Rinvasi, vasi, terricci, materiali, prezzi dei sacchi, note e foto sono salvati nella cartella dell’app sul tuo iPhone o iPad. L’app non li invia da nessuna parte. iOS può includere quella cartella nel backup del dispositivo o di iCloud secondo le tue impostazioni."
+     ],
+     [
+      "Foto",
+      "Una foto aggiunta al diario viene copiata nella cartella dell’app tramite il selettore di foto di sistema, che gira fuori dall’app; Potbench non legge mai la tua libreria. La copia viene eliminata quando rimuovi la voce o cancelli tutto nelle Impostazioni."
+     ],
+     [
+      "Promemoria",
+      "Un promemoria di ricontrollo è una notifica locale programmata sul dispositivo. iOS chiede il permesso per le notifiche la prima volta che ne scegli uno; nulla di tutto ciò lascia il dispositivo."
+     ],
+     [
+      "Acquisti",
+      "Potbench Pro è un acquisto unico gestito dall’App Store di Apple. Apple elabora il pagamento; l’app sa solo se l’acquisto è attivo. Alla transazione si applica l’informativa privacy di Apple."
+     ],
+     [
+      "Backup e condivisione",
+      "Un backup è un file che esporti tu. Piani, lotti e file CSV condivisi passano dal foglio di condivisione di sistema alla destinazione che scegli."
+     ],
+     [
+      "Rete",
+      "Potbench non apre connessioni di rete proprie. Le uniche connessioni sono quelle dell’App Store, per l’acquisto, e i link di questa pagina."
+     ]
+    ]
+   },
+   "support": {
+    "title": "Supporto",
+    "lead": "Potbench misura il vaso, toglie il pane di terra e lo spazio di irrigazione, mostra come è stata calcolata la quantità e conta le palate con te mentre versi.",
+    "sections": [
+     [
+      "Misurare il vaso",
+      "Scegli la forma (dritto, svasato, ciotola o fioriera) e digita bordo, base e altezza interna, oppure scegli una misura comune. Ci sono anche le misure da vivaio USA (#1, #2, #3, #5) e i contenitori europei C; le marche differiscono, quindi controlla la base del vaso. Se hai riempito il vaso d’acqua e l’hai misurata, digita quel volume: ha la precedenza sulle misure. Le unità seguono la tua regione e si cambiano nelle Impostazioni."
+     ],
+     [
+      "Pane di terra e salto di misura",
+      "Quando una pianta passa a un vaso più grande, scegli Cambio vaso e il vaso precedente: il suo volume conta come pane di terra, meno quello che stacchi sciogliendolo. Potbench confronta anche i due vasi; le guide suggeriscono un vaso più largo da 1 a 2 in (da 2,5 a 5 cm), e una nota avvisa quando il vaso nuovo è molto più grande. Per una talea usa una quota del vaso; per un pane di terra irregolare digita larghezza e altezza."
+     ],
+     [
+      "Spazio di irrigazione e assestamento",
+      "Lo spazio di irrigazione è la profondità vuota sotto il bordo, circa 1 in (2,5 cm), la metà nei vasi piccoli. Il terriccio fresco cala alla prima annaffiatura. Nelle miscele di corteccia e cocco il calo è di circa il 15 %; con terra da giardino, dal 30 al 40 %. Si prepara quel margine in più. Le righe sotto la quantità mostrano ogni passaggio e sommate danno il numero indicato."
+     ],
+     [
+      "Perché non c’è uno strato drenante",
+      "Le guide divulgative universitarie sconsigliano uno strato di ghiaia o di cocci sul fondo del vaso: non aiuta l’acqua a drenare e tiene più bagnato il terriccio che sta sopra. Potbench riempie il vaso con un solo terriccio dall’alto al basso. Un riempimento sul fondo è offerto solo per fioriere molto grandi, per risparmiare terriccio e peso."
+     ],
+     [
+      "Terricci",
+      "Componi un terriccio in parti dalla libreria dei materiali, aggiungi un materiale tuo o copia una delle dieci ricette di partenza. Il terriccio è disegnato come una brocca graduata, uno strato per materiale. I tre indicatori (struttura, trattiene acqua, drena) descrivono il terriccio; non sono un consiglio per una pianta precisa."
+     ],
+     [
+      "Dosare e rinvasare",
+      "Scegli la paletta che hai in mano (tazza, quart, mezzo litro e così via). Ogni parte diventa un numero di palate, arrotondato alla mezza palata perché le palate tornino. Nella schermata di dosaggio ogni tocco su una riga, o sul tasto grande, aggiunge una palata; la brocca si riempie fino alla sua linea e viene segnato il materiale successivo. Annulla toglie l’ultima palata. Lo schermo resta acceso finché è aperta. Rinvasare conserva ciò che è entrato davvero."
+     ],
+     [
+      "Sacchi e costo (Pro)",
+      "Imposta il sacco in cui arriva un materiale, come stampato, e il suo prezzo. I sacchi di terriccio USA si vendono in quart per aridi (1 qt è 1,1 L) e in piedi cubi; Potbench li legge così. Il piano mostra quanti sacchi comprare, cosa resta nell’ultimo e il costo."
+     ],
+     [
+      "Piante in lotto (Pro)",
+      "Più rinvasi pianificati che condividono un terriccio diventano un lotto: una brocca, un insieme di palate e di sacchi, dosati in un colpo solo. Il diario di ogni pianta conserva la sua parte."
+     ],
+     [
+      "Diario e backup",
+      "Ogni rinvaso conserva il suo vaso, il suo terriccio e le quantità, con note datate, foto e un promemoria facoltativo per ricontrollare. Impostazioni › Esporta backup scrive un file che conservi tu; Ripristina da backup lo sostituisce a ciò che c’è sul dispositivo. Cancella tutto rimuove tutti i dati e le foto."
+     ]
+    ],
+    "faq": [
+     [
+      "Perché un intervallo e non un solo numero?",
+      "I vasi sono raramente forme perfette e i pani di terra sono approssimativi. La quantità è una stima di pianificazione; l’intervallo mostra lo scarto da aspettarsi."
+     ],
+     [
+      "Potbench dice quale terriccio serve alla mia pianta?",
+      "No. Calcola le quantità per il terriccio che scegli. Le ricette di partenza sono miscele comuni da adattare, non una diagnosi né una promessa sulla salute della pianta."
+     ],
+     [
+      "Le palate sommano un po’ più della quantità.",
+      "Ogni materiale è arrotondato alla mezza palata per poterlo dosare a mano; il piano segnala quando il totale arrotondato è diverso."
+     ],
+     [
+      "Ho comprato Pro su un altro dispositivo.",
+      "Apri Impostazioni › Ripristina acquisti sul nuovo dispositivo, con lo stesso account Apple."
+     ],
+     [
+      "Come cambio la lingua?",
+      "Impostazioni › Lingua dell’app apre l’impostazione iOS della lingua per app."
+     ]
+    ]
+   }
+  },
+  "pt-BR": {
+   "languages": "Idiomas",
+   "contact": "Contato",
+   "updated": "Última atualização: 4 de novembro de 2026",
+   "privacy": {
+    "title": "Privacidade",
+    "lead": "O Potbench guarda tudo no seu aparelho. Sem conta, sem servidor, sem análise e sem publicidade.",
+    "sections": [
+     [
+      "O que fica no aparelho",
+      "Replantios, vasos, substratos, materiais, preços de sacos, notas e fotos ficam na pasta do app no seu iPhone ou iPad. O app nunca os envia a lugar nenhum. O iOS pode incluir essa pasta no backup do aparelho ou do iCloud conforme seus ajustes."
+     ],
+     [
+      "Fotos",
+      "Uma foto adicionada ao diário é copiada para a pasta do app pelo seletor de fotos do sistema, que roda fora do app; o Potbench nunca lê sua fototeca. A cópia é apagada quando você remove o registro ou apaga tudo nos Ajustes."
+     ],
+     [
+      "Lembretes",
+      "Um lembrete para voltar a olhar é uma notificação local agendada no aparelho. O iOS pede permissão para notificações na primeira vez que você escolhe um; nada sobre isso sai do aparelho."
+     ],
+     [
+      "Compras",
+      "O Potbench Pro é uma compra única gerenciada pela App Store da Apple. A Apple processa o pagamento; o app só sabe se a compra está ativa. A política de privacidade da Apple vale para a transação."
+     ],
+     [
+      "Backups e compartilhamento",
+      "Um backup é um arquivo que você mesmo exporta. Planos, lotes e arquivos CSV compartilhados passam pela folha de compartilhamento do sistema para o destino que você escolher."
+     ],
+     [
+      "Rede",
+      "O Potbench não abre nenhuma conexão de rede própria. As únicas conexões são as da App Store, para a compra, e os links desta página."
+     ]
+    ]
+   },
+   "support": {
+    "title": "Suporte",
+    "lead": "O Potbench mede o vaso, desconta o torrão e o espaço abaixo da borda, mostra como a quantidade foi calculada e conta as conchas com você enquanto você despeja.",
+    "sections": [
+     [
+      "Medir o vaso",
+      "Escolha o formato (reto, cônico, cuia ou jardineira) e digite a borda, a base e a altura interna, ou escolha um tamanho comum. Os tamanhos de viveiro dos EUA (#1, #2, #3, #5) e os contêineres europeus da série C também estão lá; as marcas variam, então confira a base do vaso. Se você encheu o vaso com água e mediu, digite esse volume: ele vale mais que as medidas. As unidades seguem sua região e podem ser trocadas nos Ajustes."
+     ],
+     [
+      "Torrão e vaso maior",
+      "Quando a planta vai para um vaso maior, escolha Vaso maior e o vaso antigo: o volume dele conta como torrão, menos o que você soltar. O Potbench também compara os dois vasos; os guias sugerem um vaso de 1 a 2 polegadas (2,5 a 5 cm) mais largo, e uma nota avisa quando o vaso novo é bem maior. Para uma estaca, use uma fração do vaso; para um torrão fora do comum, digite a largura e a altura dele."
+     ],
+     [
+      "Espaço abaixo da borda e assentamento",
+      "O espaço abaixo da borda é a profundidade vazia sob a borda, cerca de 1 polegada (2,5 cm), metade disso em vasos pequenos. O substrato novo afunda na primeira rega. Nas misturas de casca e fibra de coco isso é cerca de 15 %; com terra de jardim, de 30 a 40 %. Por isso se prepara essa quantidade a mais. As linhas sob a quantidade mostram cada etapa e somam o número exibido."
+     ],
+     [
+      "Por que não há camada de drenagem",
+      "Os guias de extensão universitária desaconselham uma camada de cascalho ou cacos no fundo do vaso: ela não ajuda a água a escoar e deixa a terra acima dela mais úmida. O Potbench enche o vaso com um só substrato, de cima a baixo. Um enchimento no fundo só é oferecido para jardineiras muito grandes, para economizar substrato e peso."
+     ],
+     [
+      "Substratos",
+      "Monte um substrato por partes a partir da biblioteca de materiais, adicione um material seu ou copie uma das dez receitas de partida. O substrato é desenhado como uma jarra medidora, uma camada por material. As três escalas (estrutura, retém água, drena) descrevem o substrato; não são conselho para uma planta específica."
+     ],
+     [
+      "Medir e replantar",
+      "Escolha a concha que está na sua mão (xícara, quarto de galão, meio litro e assim por diante). Cada parte vira um número de conchas, arredondado para a meia concha para que as conchas somem. Na tela de medir, cada toque numa linha, ou na tecla grande, soma uma concha; a jarra se enche até a linha e o próximo material é marcado. Desfazer tira de volta a última concha. A tela fica acesa enquanto está aberta. Ao replantar, o diário guarda o que realmente entrou."
+     ],
+     [
+      "Sacos e custo (Pro)",
+      "Defina o saco em que cada material vem, como está impresso, e o preço dele. Os sacos de substrato dos EUA são vendidos em quartos de galão secos (dry quarts; 1 qt equivale a 1,1 L) e em pés cúbicos; o Potbench os lê assim. O plano mostra quantos sacos comprar, o que sobra no último e o custo."
+     ],
+     [
+      "Plantas em lote (Pro)",
+      "Vários replantios planejados que compartilham um substrato viram um lote: uma jarra, um conjunto de conchas e de sacos, medidos de uma só vez. O diário de cada planta guarda a parte dela."
+     ],
+     [
+      "Diário e backups",
+      "Cada replantio guarda o vaso, o substrato e as quantidades, com notas datadas, fotos e um lembrete opcional para voltar a olhar. Ajustes › Exportar backup grava um arquivo que você guarda; Restaurar do backup substitui o que está no aparelho por ele. Apagar tudo remove todos os dados e fotos."
+     ]
+    ],
+    "faq": [
+     [
+      "Por que uma faixa e não um número só?",
+      "Vasos raramente são formas perfeitas e torrões são aproximados. A quantidade é uma estimativa de planejamento; a faixa mostra a variação esperada."
+     ],
+     [
+      "O Potbench diz qual substrato minha planta precisa?",
+      "Não. Ele calcula quantidades para o substrato que você escolher. As receitas de partida são misturas comuns para ajustar, não um diagnóstico nem uma promessa sobre a saúde da planta."
+     ],
+     [
+      "As conchas somam um pouco mais que a quantidade.",
+      "Cada material é arredondado para a meia concha para que você possa medir à mão; o plano avisa quando o total arredondado difere."
+     ],
+     [
+      "Comprei o Pro em outro aparelho.",
+      "Abra Ajustes › Restaurar compras no aparelho novo, com a mesma Conta Apple."
+     ],
+     [
+      "Como mudo o idioma?",
+      "Ajustes › Idioma do app abre o ajuste de idioma por app do iOS."
+     ]
+    ]
+   }
+  },
+  "nl": {
+   "languages": "Talen",
+   "contact": "Contact",
+   "updated": "Laatst bijgewerkt: 4 november 2026",
+   "privacy": {
+    "title": "Privacy",
+    "lead": "Potbench houdt alles op je apparaat. Geen account, geen server, geen analyse, geen advertenties.",
+    "sections": [
+     [
+      "Wat op het apparaat blijft",
+      "Verpottingen, potten, mengsels, materialen, zakprijzen, notities en foto’s staan in de eigen map van de app op je iPhone of iPad. De app stuurt ze nergens heen. iOS kan die map volgens je eigen instellingen in de apparaat- of iCloud-back-up opnemen."
+     ],
+     [
+      "Foto’s",
+      "Een foto in het logboek wordt via de fotokiezer van het systeem, die buiten de app draait, naar de map van de app gekopieerd; Potbench leest je fotobibliotheek nooit. De kopie wordt verwijderd als je het item verwijdert of alles wist in Instellingen."
+     ],
+     [
+      "Herinneringen",
+      "Een herinnering om terug te kijken is een lokale melding die op het apparaat wordt gepland. iOS vraagt de eerste keer dat je er een kiest om toestemming voor meldingen; niets daarvan verlaat het apparaat."
+     ],
+     [
+      "Aankopen",
+      "Potbench Pro is een eenmalige aankoop via Apples App Store. Apple verwerkt de betaling; de app weet alleen of de aankoop actief is. Op de transactie is het privacybeleid van Apple van toepassing."
+     ],
+     [
+      "Back-ups en delen",
+      "Een back-up is een bestand dat je zelf exporteert. Gedeelde plannen, partijen en CSV-bestanden gaan via het deelvenster van het systeem naar de bestemming die je kiest."
+     ],
+     [
+      "Netwerk",
+      "Potbench opent zelf geen netwerkverbinding. De enige verbindingen zijn die van de App Store, voor de aankoop, en de links op deze pagina."
+     ]
+    ]
+   },
+   "support": {
+    "title": "Ondersteuning",
+    "lead": "Potbench meet de pot, trekt de wortelkluit en de gietrand eraf, laat zien hoe de hoeveelheid is berekend en telt de scheppen met je mee terwijl je giet.",
+    "sections": [
+     [
+      "De pot opmeten",
+      "Kies de vorm (recht, taps, schaal of plantenbak) en typ de rand, de bodem en de binnenhoogte, of kies een gangbare maat. Amerikaanse kwekerijmaten (#1, #2, #3, #5) en Europese C-potten staan er ook bij; merken verschillen, dus kijk op de onderkant van de pot. Als je de pot met water hebt gevuld en de inhoud hebt gemeten, typ dan dat volume: het gaat voor op de afmetingen. Eenheden volgen je regio en zijn te wijzigen in Instellingen."
+     ],
+     [
+      "Wortelkluit en doorpotten",
+      "Gaat een plant een maat omhoog, kies dan Doorpotten en de oude pot: de inhoud telt als wortelkluit, min wat je losmaakt. Potbench vergelijkt ook de twee potten; gidsen raden een pot aan die 1 tot 2 inch (2,5 tot 5 cm) breder is, en een melding zegt het als de nieuwe pot veel groter is. Gebruik voor een stek een deel van de pot; typ voor een bijzondere wortelkluit de breedte en de hoogte."
+     ],
+     [
+      "Gietrand en inklinken",
+      "De gietrand is de lege diepte onder de rand, ongeveer 1 inch (2,5 cm), de helft daarvan in kleine potten. Vers mengsel zakt bij de eerste gietbeurt. Bij mengsels van schors en kokos is dat ongeveer 15 %; met tuingrond 30 tot 40 %. Zoveel extra wordt klaargemaakt. De regels onder de hoeveelheid tonen elke stap en vormen samen het getal dat je ziet."
+     ],
+     [
+      "Waarom er geen drainagelaag is",
+      "Voorlichtingsgidsen van universiteiten raden een laag grind of scherven onderin de pot af: die helpt het water niet af te voeren en houdt de grond erboven natter. Potbench vult de pot van boven tot onder met één mengsel. Een opvulling onderin wordt alleen aangeboden voor zeer grote plantenbakken, om mengsel en gewicht te besparen."
+     ],
+     [
+      "Mengsels",
+      "Stel een mengsel samen in delen uit de materiaalbibliotheek, voeg je eigen materiaal toe of kopieer een van de tien basismengsels. Het mengsel wordt getekend als een maatbeker, een laag per materiaal. De drie schalen (structuur, houdt water, draineert) beschrijven het mengsel; ze zijn geen advies voor een bepaalde plant."
+     ],
+     [
+      "Afmeten en verpotten",
+      "Kies de schep die je vasthoudt (cup, quart, een halve liter enzovoort). Elk deel wordt een aantal scheppen, afgerond op een halve schep zodat de scheppen optellen. Op het afmeetscherm voegt elke tik op een rij, of op de grote toets, een schep toe; de maatbeker vult zich tot de streep en het volgende materiaal wordt gemarkeerd. Ongedaan maken neemt de laatste schep terug. Het scherm blijft aan zolang het open is. Verpotten bewaart wat er echt in ging."
+     ],
+     [
+      "Zakken en kosten (Pro)",
+      "Stel de zak in waarin een materiaal wordt verkocht, zoals op de zak staat, en de prijs. Amerikaanse zakken potgrond worden verkocht in droge quarts (1 qt is 1,1 L) en kubieke voet; Potbench leest ze zo. Het plan toont hoeveel zakken je moet kopen, wat er in de laatste overblijft en de kosten."
+     ],
+     [
+      "Planten bundelen (Pro)",
+      "Meerdere geplande verpottingen met hetzelfde mengsel worden één partij: één maatbeker, één set scheppen en zakken, in één keer afgemeten. Het logboek van elke plant houdt zijn deel bij."
+     ],
+     [
+      "Logboek en back-ups",
+      "Elke verpotting bewaart de pot, het mengsel en de hoeveelheden, met gedateerde notities, foto’s en een optionele herinnering om terug te kijken. Instellingen › Back-up exporteren schrijft een bestand dat je zelf bewaart; Herstellen uit back-up vervangt wat op het apparaat staat door dat bestand. Alles wissen verwijdert alle gegevens en foto’s."
+     ]
+    ],
+    "faq": [
+     [
+      "Waarom een bereik en niet één getal?",
+      "Potten zijn zelden perfecte vormen en wortelkluiten zijn bij benadering. De hoeveelheid is een planningsschatting; het bereik toont de te verwachten spreiding."
+     ],
+     [
+      "Zegt Potbench welk mengsel mijn plant nodig heeft?",
+      "Nee. Het rekent hoeveelheden uit voor het mengsel dat jij kiest. De basismengsels zijn gangbare mengsels om aan te passen, geen diagnose en geen belofte over de gezondheid van een plant."
+     ],
+     [
+      "De scheppen tellen op tot iets meer dan de hoeveelheid.",
+      "Elk materiaal wordt afgerond op een halve schep zodat je het met de hand kunt afmeten; het plan zegt het als het afgeronde totaal afwijkt."
+     ],
+     [
+      "Ik heb Pro op een ander apparaat gekocht.",
+      "Open Instellingen › Aankopen herstellen op het nieuwe apparaat, met hetzelfde Apple-account."
+     ],
+     [
+      "Hoe wijzig ik de taal?",
+      "Instellingen › App-taal opent de iOS-taalinstelling per app."
+     ]
+    ]
+   }
+  },
+  "ja": {
+   "languages": "言語",
+   "contact": "お問い合わせ",
+   "updated": "最終更新: 2026年11月4日",
+   "privacy": {
+    "title": "プライバシー",
+    "lead": "Potbenchはすべてをお使いの端末内に保存します。アカウント、サーバー、解析、広告はありません。",
+    "sections": [
+     [
+      "端末内に残るもの",
+      "植え替え、鉢、用土、材料、袋の価格、記録のメモ、写真は、iPhoneまたはiPad上のアプリ専用フォルダに保存されます。アプリがそれらをどこかへ送ることはありません。iOSはバックアップ設定に従って、このフォルダを端末またはiCloudのバックアップに含めることがあります。"
+     ],
+     [
+      "写真",
+      "記録に追加した写真は、アプリの外で動くシステムの写真ピッカーを通じてアプリのフォルダにコピーされます。Potbenchが写真ライブラリを読むことはありません。コピーは、その記録を削除するか設定で「すべて消去」したときに削除されます。"
+     ],
+     [
+      "リマインダー",
+      "様子を見るリマインダーは、端末上でスケジュールされるローカル通知です。iOSは、初めてリマインダーを選んだときに通知の許可を求めます。リマインダーに関する情報が端末の外に出ることはありません。"
+     ],
+     [
+      "購入",
+      "Potbench ProはAppleのApp Storeを通じた買い切り購入です。決済はAppleが処理し、アプリは購入が有効かどうかだけを知ります。取引にはAppleのプライバシーポリシーが適用されます。"
+     ],
+     [
+      "バックアップと共有",
+      "バックアップはご自身で書き出すファイルです。共有した計画、配合、CSVファイルはシステムの共有シートを通じて、選んだ送り先に渡ります。"
+     ],
+     [
+      "ネットワーク",
+      "Potbench自身はネットワーク接続を開きません。接続は購入時のApp Storeと、このページのリンクだけです。"
+     ]
+    ]
+   },
+   "support": {
+    "title": "サポート",
+    "lead": "Potbenchは鉢を測り、根鉢とウォータースペースを差し引き、量の出し方を示し、注ぐあいだスコップの杯数を一緒に数えます。",
+    "sections": [
+     [
+      "鉢を測る",
+      "形（筒型、すり鉢型、ボウル、プランター）を選び、口径、底径、内側の高さを入力するか、よくあるサイズを選びます。米国のナーセリー規格（#1、#2、#3、#5）やヨーロッパのCコンテナも入っています。ブランドによって違うので、鉢の底の表示を確認してください。鉢に水を入れて量った場合は、その量を入力してください。寸法より優先されます。単位は地域に従い、設定で切り替えられます。"
+     ],
+     [
+      "根鉢とサイズアップ",
+      "鉢増しのときは「鉢増し」と前の鉢を選びます。前の鉢の容量が根鉢として数えられ、ほぐして落とす分は差し引かれます。Potbenchは2つの鉢の大きさも比べます。ガイドでは1〜2インチ（2.5〜5 cm）広い鉢が目安とされていて、新しい鉢がそれよりかなり大きいときはメモで知らせます。挿し木には鉢に対する割合を使い、形の不揃いな根鉢には幅と高さを入力します。"
+     ],
+     [
+      "ウォータースペースと沈み込み",
+      "ウォータースペースは縁から下の空きの深さで、約1インチ（2.5 cm）、小さな鉢ではその半分です。新しい用土は最初の水やりで沈みます（バークやココピート主体の用土で約15%、庭土を含む用土で30〜40%）。その分を多めに用意します。量の下に並ぶ行が各ステップを示し、その合計は表示された数字と一致します。"
+     ],
+     [
+      "排水層を入れない理由",
+      "大学の普及指導ガイドでは、鉢の底に砂利や鉢の破片の層を敷くことは勧められていません。水はけの助けにならず、その上の土をかえって湿らせるからです。Potbenchは上から下まで同じ1種類の用土で鉢を満たします。底上げ材は、用土と重さを節約するために、とても大きなプランターのときだけ選べます。"
+     ],
+     [
+      "用土",
+      "材料ライブラリから割合で配合を組むか、自分の材料を追加するか、10種の基本の配合のどれかをコピーします。配合は計量カップに、材料ごとに1層で描かれます。3つのゲージ（粒の粗さ、保水、排水）は用土の性質を示すもので、特定の植物への助言ではありません。"
+     ],
+     [
+      "計量して植え替える",
+      "手元のスコップ（カップ、クォート、0.5 Lなど）を選びます。各材料が杯数になり、合計が合うように半杯単位に丸められます。計量画面では、行か大きなボタンをタップするたびに1杯が加わり、カップは線まで満ち、次の材料に印が付きます。取り消すと直前の1杯が戻ります。この画面を開いている間、画面は消灯しません。植え替えを完了すると、実際に入れた量が残ります。"
+     ],
+     [
+      "袋と費用（Pro）",
+      "材料が入っている袋を、印刷されているとおりのサイズと価格で設定します。米国の用土の袋はドライクォート（1 qt は 1.1 L）と立方フィートで売られていて、Potbenchもその単位で読みます。計画には、買う袋の数、最後の袋に残る量、費用が表示されます。"
+     ],
+     [
+      "まとめて植え替え（Pro）",
+      "同じ用土を使う計画中の植え替えが複数あるときは、1つのまとまりにできます。計量カップ、スコップの杯数、袋が1組になり、1回で計量できます。各植物の記録には、その株の取り分が残ります。"
+     ],
+     [
+      "記録とバックアップ",
+      "植え替えごとに、鉢、用土、量が、日付入りのメモ、写真、任意の様子を見るリマインダーとともに残ります。設定 › バックアップを書き出す は保管用のファイルを作り、バックアップから復元 は端末内のデータをそのファイルで置き換えます。すべて消去 はすべてのデータと写真を削除します。"
+     ]
+    ],
+    "faq": [
+     [
+      "なぜ一つの数字ではなく幅で示すのですか？",
+      "鉢が完全な形であることはまれで、根鉢も概算です。量は計画用の目安で、幅は見込まれるばらつきを示します。"
+     ],
+     [
+      "Potbenchは私の植物に合う用土を教えてくれますか？",
+      "いいえ。選んだ用土に対する量を計算します。基本の配合は調整して使う一般的な配合で、診断でも、植物の生育についての約束でもありません。"
+     ],
+     [
+      "スコップの杯数の合計が、量より少し多くなります。",
+      "各材料は手で量れるように半杯単位に丸められます。丸めた合計が量と違うときは、計画にそのことが表示されます。"
+     ],
+     [
+      "別の端末でProを購入しました。",
+      "新しい端末で同じApple Accountにサインインし、設定 › 購入を復元 を開いてください。"
+     ],
+     [
+      "言語を変えるには？",
+      "設定 › アプリの言語 でiOSのアプリごとの言語設定が開きます。"
+     ]
+    ]
+   }
+  },
+  "ko": {
+   "languages": "언어",
+   "contact": "문의",
+   "updated": "최종 업데이트: 2026년 11월 4일",
+   "privacy": {
+    "title": "개인정보 처리방침",
+    "lead": "Potbench는 모든 것을 기기 안에 보관합니다. 계정도, 서버도, 분석도, 광고도 없습니다.",
+    "sections": [
+     [
+      "기기에 남는 것",
+      "분갈이, 화분, 배합토, 재료, 포대 가격, 일지 메모, 사진은 iPhone 또는 iPad의 앱 전용 폴더에 저장됩니다. 앱은 이를 어디에도 보내지 않습니다. iOS는 사용자의 백업 설정에 따라 이 폴더를 기기 또는 iCloud 백업에 포함할 수 있습니다."
+     ],
+     [
+      "사진",
+      "일지에 추가한 사진은 앱 밖에서 동작하는 시스템 사진 선택기를 통해 앱 폴더로 복사됩니다. Potbench는 사진 보관함을 읽지 않습니다. 복사본은 항목을 삭제하거나 설정에서 모두 지울 때 삭제됩니다."
+     ],
+     [
+      "알림",
+      "다시 살펴보기 알림은 기기에서 예약되는 로컬 알림입니다. iOS는 알림을 처음 고를 때 알림 권한을 묻습니다. 알림에 관한 정보는 기기 밖으로 나가지 않습니다."
+     ],
+     [
+      "구입",
+      "Potbench Pro는 Apple App Store를 통한 한 번 구입입니다. 결제는 Apple이 처리하며 앱은 구입이 유효한지만 압니다. 거래에는 Apple의 개인정보 처리방침이 적용됩니다."
+     ],
+     [
+      "백업과 공유",
+      "백업은 직접 내보내는 파일입니다. 공유한 계획, 배합, CSV 파일은 시스템 공유 시트를 통해 선택한 곳으로 전달됩니다."
+     ],
+     [
+      "네트워크",
+      "Potbench는 자체 네트워크 연결을 열지 않습니다. 연결은 구입 시 App Store와 이 페이지의 링크뿐입니다."
+     ]
+    ]
+   },
+   "support": {
+    "title": "지원",
+    "lead": "Potbench는 화분을 재고, 뿌리 뭉치와 물 공간을 빼고, 양이 어떻게 나왔는지 보여 주며, 붓는 동안 스쿱 수를 함께 세어 줍니다.",
+    "sections": [
+     [
+      "화분 재기",
+      "모양(원통, 위가 넓은 화분, 볼, 사각 플랜터)을 고르고 윗지름, 밑지름, 안쪽 높이를 입력하거나 자주 쓰는 크기를 고르세요. 미국 육묘장 규격(#1, #2, #3, #5)과 유럽의 C 컨테이너도 들어 있습니다. 브랜드마다 다르니 화분 바닥의 표시를 확인하세요. 화분에 물을 채워 양을 쟀다면 그 양을 입력하세요. 치수보다 그 값이 우선합니다. 단위는 지역을 따르며 설정에서 바꿀 수 있습니다."
+     ],
+     [
+      "뿌리 뭉치와 큰 화분으로",
+      "식물을 한 치수 큰 화분으로 옮길 때는 '큰 화분으로'와 이전 화분을 고르세요. 이전 화분의 용량이 뿌리 뭉치로 계산되며, 털어 내는 만큼은 뺍니다. Potbench는 두 화분의 크기도 비교합니다. 안내서에서는 1~2인치(2.5~5 cm) 더 넓은 화분을 권하며, 새 화분이 그보다 훨씬 크면 메모로 알려 줍니다. 삽목에는 화분 대비 비율을 쓰고, 모양이 고르지 않은 뿌리 뭉치는 너비와 높이를 입력하세요."
+     ],
+     [
+      "물 공간과 가라앉음",
+      "물 공간은 가장자리 아래 비워 두는 깊이로, 약 1인치(2.5 cm)이고 작은 화분은 그 절반입니다. 새 배합토는 첫 물주기에 가라앉습니다(바크와 코코피트 배합은 약 15%, 정원 흙이 든 배합은 30~40%). 그만큼 더 준비합니다. 양 아래의 줄들이 각 단계를 보여 주고, 그 합은 표시된 숫자와 같습니다."
+     ],
+     [
+      "배수층이 없는 이유",
+      "대학의 원예 보급(익스텐션) 안내서는 화분 바닥에 자갈이나 깨진 조각을 깔지 말라고 권합니다. 물이 빠지는 데 도움이 되지 않고, 그 위의 흙이 더 오래 젖어 있게 하기 때문입니다. Potbench는 화분을 위에서 아래까지 같은 배합토 하나로 채웁니다. 바닥 채움재는 배합토와 무게를 줄이기 위해 아주 큰 플랜터에만 제안합니다."
+     ],
+     [
+      "배합토",
+      "재료 라이브러리에서 비율로 배합토를 만들거나, 내 재료를 추가하거나, 기본 레시피 10가지 중 하나를 복사하세요. 배합은 계량컵에 재료마다 한 층으로 그려집니다. 세 가지 게이지(입자 굵기, 보수력, 배수)는 배합토의 성질을 설명할 뿐 특정 식물에 대한 조언이 아닙니다."
+     ],
+     [
+      "계량하고 분갈이하기",
+      "손에 든 스쿱(컵, 쿼트, 0.5 L 등)을 고르세요. 재료마다 스쿱 수가 나오며, 합이 맞도록 반 스쿱 단위로 반올림됩니다. 계량 화면에서 행이나 큰 키를 탭할 때마다 한 스쿱이 더해지고, 컵이 선까지 차오르며 다음 재료에 표시가 붙습니다. 취소를 누르면 마지막 스쿱이 되돌아옵니다. 이 화면이 열려 있는 동안 화면은 꺼지지 않습니다. 분갈이를 완료하면 실제로 들어간 양이 남습니다."
+     ],
+     [
+      "포대와 비용(Pro)",
+      "재료가 담긴 포대를 인쇄된 대로 크기와 가격으로 설정하세요. 미국 배합토 포대는 드라이 쿼트(1 qt는 1.1 L)와 세제곱피트 단위로 팔리며, Potbench도 그렇게 읽습니다. 계획에는 사야 할 포대 수, 마지막 포대에 남는 양, 비용이 나옵니다."
+     ],
+     [
+      "식물 묶기(Pro)",
+      "같은 배합토를 쓰는 계획된 분갈이가 여럿이면 하나로 묶을 수 있습니다. 계량컵 하나, 스쿱 수와 포대 한 세트로 한 번에 계량합니다. 각 식물의 일지에는 그 식물의 몫이 남습니다."
+     ],
+     [
+      "일지와 백업",
+      "분갈이마다 화분, 배합토, 양이 날짜가 있는 메모, 사진, 선택 사항인 다시 살펴보기 알림과 함께 남습니다. 설정 › 백업 내보내기는 직접 보관할 파일을 만들고, 백업에서 복원은 기기의 내용을 그 파일로 바꿉니다. 모두 지우기는 모든 데이터와 사진을 삭제합니다."
+     ]
+    ],
+    "faq": [
+     [
+      "왜 하나의 숫자가 아니라 범위인가요?",
+      "화분이 완벽한 모양인 경우는 드물고 뿌리 뭉치는 어림값입니다. 양은 계획용 추정치이고, 범위는 예상되는 편차를 보여 줍니다."
+     ],
+     [
+      "Potbench가 내 식물에 맞는 배합토를 알려 주나요?",
+      "아니요. 고른 배합토에 필요한 양을 계산합니다. 기본 레시피는 조정해서 쓰는 흔한 배합일 뿐, 진단이나 식물 생육에 대한 약속이 아닙니다."
+     ],
+     [
+      "스쿱 수의 합이 양보다 조금 많아요.",
+      "손으로 잴 수 있도록 재료마다 반 스쿱 단위로 반올림하기 때문입니다. 반올림한 합이 양과 다르면 계획에 그렇게 표시됩니다."
+     ],
+     [
+      "다른 기기에서 Pro를 구입했어요.",
+      "같은 Apple 계정으로 로그인한 새 기기에서 설정 › 구입 항목 복원을 여세요."
+     ],
+     [
+      "언어는 어떻게 바꾸나요?",
+      "설정 › 앱 언어에서 iOS의 앱별 언어 설정이 열립니다."
+     ]
+    ]
+   }
+  },
+  "zh-Hans": {
+   "languages": "语言",
+   "contact": "联系",
+   "updated": "最后更新：2026 年 11 月 4 日",
+   "privacy": {
+    "title": "隐私政策",
+    "lead": "Potbench 把一切都留在你的设备上。没有账户、没有服务器、没有分析、没有广告。",
+    "sections": [
+     [
+      "留在设备上的内容",
+      "换盆、花盆、配土、材料、袋装价格、日志笔记和照片都保存在 iPhone 或 iPad 上 App 自己的文件夹里。App 不会把它们发送到任何地方。iOS 可能按照你的备份设置把该文件夹包含在设备或 iCloud 备份中。"
+     ],
+     [
+      "照片",
+      "添加到日志的照片通过在 App 之外运行的系统照片选择器复制到 App 文件夹；Potbench 从不读取你的照片图库。删除该条目或在设置中抹掉全部内容时，副本随之删除。"
+     ],
+     [
+      "提醒",
+      "回头查看提醒是设备上安排的本地通知。你第一次选择提醒时，iOS 会请求通知权限；与之相关的任何内容都不会离开设备。"
+     ],
+     [
+      "购买",
+      "Potbench Pro 是通过 Apple App Store 完成的一次性购买。付款由 Apple 处理；App 只知道购买是否有效。交易适用 Apple 的隐私政策。"
+     ],
+     [
+      "备份与分享",
+      "备份是你自己导出的文件。分享的计划、配土批次和 CSV 文件通过系统共享表送到你选择的目的地。"
+     ],
+     [
+      "网络",
+      "Potbench 自身不打开任何网络连接。唯一的连接是购买时的 App Store，以及本页上的链接。"
+     ]
+    ]
+   },
+   "support": {
+    "title": "支持",
+    "lead": "Potbench 量好花盆，扣掉根团和浇水空间，展示用量是怎么算出来的，并在你倒土时陪你一勺一勺数。",
+    "sections": [
+     [
+      "量花盆",
+      "选一种形状（直筒、上宽下窄、碗形或方形种植箱），填入盆口、盆底和内部高度，或直接选常见尺寸。美国育苗盆规格（#1、#2、#3、#5）和欧洲的 C 型容器也都有；各品牌不尽相同，请核对盆底的标注。如果你把花盆装满水量过，就填入那个容量：它优先于尺寸测量值。单位跟随你所在的地区，可在设置中切换。"
+     ],
+     [
+      "根团与换大一号",
+      "植物换大一号时，选择“换大一号”和旧盆：旧盆的容量算作根团，再减去你抖松掉的部分。Potbench 还会比较新旧两个盆；园艺指南建议新盆加宽 1 到 2 英寸（2.5 到 5 cm），新盆比这大得多时会有一条提示。扦插苗可按占花盆的一定比例来算；根团形状特殊时，填入它的宽度和高度。"
+     ],
+     [
+      "浇水空间与沉降",
+      "浇水空间是盆沿下的空余深度，约 1 英寸（2.5 cm），小盆减半。新配土在第一次浇水后会下沉：树皮和椰糠类配土约 15 %，含园土的约 30 到 40 %，所以会多备出这么多。数量下方的各行展示每一步，加起来就是显示的数字。"
+     ],
+     [
+      "为什么没有排水层",
+      "大学的园艺推广指南不建议在盆底铺一层砾石或碎陶片：它并不能帮助排水，还会让上面的土更湿。Potbench 用同一种配土从上到下填满花盆。只有特别大的种植箱才会提供底部填充物，用来节省配土和重量。"
+     ],
+     [
+      "配土",
+      "从材料库里按份数配土，添加自己的材料，或复制十款基础配方之一。配土画成一只量杯，每种材料一层。三个刻度（颗粒、保水、排水）用来描述这款配土，并不是针对某一株植物的建议。"
+     ],
+     [
+      "称量与换盆",
+      "选你手里的勺（杯、夸脱、半升等）。每一份配土都换算成若干勺，按半勺取整，这样勺数加起来才对得上。在称量界面，点一行或点大按键，就加一勺；量杯填到它的刻度线，下一种材料随之被标出。“撤销”会收回最后一勺。界面打开时屏幕保持常亮。换盆时会保存实际倒入的量。"
+     ],
+     [
+      "袋数与花费（Pro）",
+      "按袋上印的规格设置每种材料的袋装大小和价格。美国盆栽土的袋装按干量夸脱（1 qt 约合 1.1 L）和立方英尺出售，Potbench 就按这个读取。计划会显示要买几袋、最后一袋剩多少以及花费。"
+     ],
+     [
+      "多株合批（Pro）",
+      "几次计划中的换盆共用一款配土，就合成一批：一只量杯，一套勺数和袋数，一次量完。每株植物的日志保留它自己的那一份。"
+     ],
+     [
+      "日志与备份",
+      "每次换盆都会保存它的花盆、配土和用量，附带日期的记录、照片和可选的回头查看提醒。设置 › 导出备份会写出一个由你保管的文件；从备份恢复会用它替换设备上的内容。全部抹掉会删除所有数据和照片。"
+     ]
+    ],
+    "faq": [
+     [
+      "为什么给的是区间，而不是一个数？",
+      "花盆很少是完美的形状，根团也只是近似。这个用量是计划估算；区间显示你可以预期的误差范围。"
+     ],
+     [
+      "Potbench 会告诉我的植物需要哪种配土吗？",
+      "不会。它只为你选的配土算用量。基础配方是常见的配土，供你调整，既不是诊断，也不是对植物健康的承诺。"
+     ],
+     [
+      "勺数加起来比用量多一点。",
+      "每种材料都按半勺取整，方便你用手量；取整后的总数不一致时，计划里会说明。"
+     ],
+     [
+      "我在另一台设备上买过 Pro。",
+      "在新设备上打开 设置 › 恢复购买，并登录同一个 Apple 账户。"
+     ],
+     [
+      "怎么更改语言？",
+      "设置 › App 语言… 会打开 iOS 的单个 App 语言设置。"
+     ]
+    ]
+   }
+  },
+  "ru": {
+   "languages": "Языки",
+   "contact": "Контакты",
+   "updated": "Последнее обновление: 4 ноября 2026 г.",
+   "privacy": {
+    "title": "Конфиденциальность",
+    "lead": "Potbench хранит всё на вашем устройстве. Ни аккаунта, ни сервера, ни аналитики, ни рекламы.",
+    "sections": [
+     [
+      "Что остаётся на устройстве",
+      "Пересадки, горшки, смеси, материалы, цены мешков, заметки журнала и фото хранятся в собственной папке приложения на iPhone или iPad. Приложение никуда их не отправляет. iOS может включить эту папку в резервную копию устройства или iCloud согласно вашим настройкам."
+     ],
+     [
+      "Фото",
+      "Фото, добавленное в журнал, копируется в папку приложения через системный выбор фото, который работает вне приложения; Potbench никогда не читает вашу медиатеку. Копия удаляется, когда вы удаляете запись или стираете всё в настройках."
+     ],
+     [
+      "Напоминания",
+      "Напоминание «проверить позже» — это локальное уведомление, запланированное на устройстве. iOS запрашивает разрешение на уведомления, когда вы впервые выбираете напоминание; ничего из этого не покидает устройство."
+     ],
+     [
+      "Покупки",
+      "Potbench Pro — разовая покупка через App Store Apple. Платёж обрабатывает Apple; приложение знает только, активна ли покупка. К сделке применяется политика конфиденциальности Apple."
+     ],
+     [
+      "Резервные копии и обмен",
+      "Резервная копия — файл, который вы экспортируете сами. Планы, партии и CSV-файлы уходят через системное окно «Поделиться» туда, куда вы выберете."
+     ],
+     [
+      "Сеть",
+      "Potbench не открывает собственных сетевых соединений. Единственные соединения — App Store при покупке и ссылки на этой странице."
+     ]
+    ]
+   },
+   "support": {
+    "title": "Поддержка",
+    "lead": "Potbench измеряет горшок, вычитает земляной ком и место под полив, показывает, как получено количество, и считает совки вместе с вами, пока вы насыпаете.",
+    "sections": [
+     [
+      "Измерьте горшок",
+      "Выберите форму (прямой, конусный, плошка или ящик) и введите верх, дно и внутреннюю высоту либо выберите ходовой размер. Американские питомниковые размеры (#1, #2, #3, #5) и европейские C-контейнеры тоже есть; у разных брендов они отличаются, поэтому проверьте дно горшка. Если вы наполнили горшок водой и измерили объём, введите его: он важнее обмеров. Единицы зависят от региона и переключаются в Настройках."
+     ],
+     [
+      "Земляной ком и шаг вверх",
+      "Когда растение переезжает в горшок побольше, выберите «Размер больше» и старый горшок: его объём считается комом, за вычетом того, что вы стряхнули. Potbench также сравнивает два горшка; руководства советуют брать горшок шире на 1–2 дюйма (от 2,5 до 5 см), и заметка сообщает, если новый горшок намного больше. Для черенка возьмите долю горшка; для необычного кома введите его ширину и высоту."
+     ],
+     [
+      "Место под полив и усадка",
+      "Место под полив — это пустая глубина ниже края, около 1 дюйма (2,5 см), в маленьких горшках вдвое меньше. Свежая смесь оседает после первого полива. Для смесей с корой и кокосом это примерно 15 %, для смесей с садовой землёй — от 30 до 40 %; поэтому смесь готовят с таким запасом. Строки под количеством показывают каждый шаг, а вместе они дают показанное число."
+     ],
+     [
+      "Почему нет дренажного слоя",
+      "Университетские руководства по садоводству не советуют класть на дно горшка слой гравия или черепков: он не помогает воде уходить и делает землю над ним более влажной. Potbench заполняет горшок одной смесью сверху донизу. Наполнитель на дно предлагается только для очень больших кашпо, чтобы сэкономить смесь и вес."
+     ],
+     [
+      "Смеси",
+      "Соберите смесь по частям из библиотеки материалов, добавьте свой материал или скопируйте один из десяти базовых рецептов. Смесь нарисована как мерный кувшин, по слою на материал. Три шкалы (фракция, держит воду, дренаж) описывают смесь; это не совет для конкретного растения."
+     ],
+     [
+      "Отмеривание и пересадка",
+      "Выберите совок, который держите в руке (чашка, кварта, пол-литра и так далее). Каждая часть становится числом совков, округлённым до половины совка, чтобы сумма сходилась. На экране отмеривания каждое касание строки или большой клавиши добавляет совок; кувшин наполняется до своей линии, и отмечается следующий материал. «Отменить» возвращает последний совок. Пока экран открыт, он не гаснет. Пересадка сохраняет то, что действительно было засыпано."
+     ],
+     [
+      "Мешки и стоимость (Pro)",
+      "Укажите, в каком мешке продаётся материал, как напечатано на нём, и цену. Американские мешки с грунтом продаются в сухих квартах (1 qt — это 1,1 л) и кубических футах; Potbench читает их именно так. План показывает, сколько мешков купить, сколько останется в последнем и во сколько это обойдётся."
+     ],
+     [
+      "Партия растений (Pro)",
+      "Несколько запланированных пересадок с общей смесью становятся одной партией: один кувшин, один набор совков и мешков, отмеривание за один раз. Журнал каждого растения хранит его долю."
+     ],
+     [
+      "Журнал и резервные копии",
+      "Каждая пересадка хранит свой горшок, свою смесь и количества, с заметками с датами, фото и необязательным напоминанием проверить позже. Настройки › Экспорт резервной копии записывает файл, который вы храните; «Восстановить из копии» заменяет им данные на устройстве. «Стереть всё» удаляет все данные и фото."
+     ]
+    ],
+    "faq": [
+     [
+      "Почему диапазон, а не одно число?",
+      "Горшки редко бывают идеальной формы, а земляные комы приблизительны. Количество — оценка для планирования; диапазон показывает ожидаемый разброс."
+     ],
+     [
+      "Говорит ли Potbench, какая смесь нужна моему растению?",
+      "Нет. Он считает количества для выбранной вами смеси. Базовые рецепты — распространённые смеси, которые можно менять, а не диагноз и не обещание о здоровье растения."
+     ],
+     [
+      "Совки в сумме дают чуть больше, чем количество.",
+      "Каждый материал округляется до половины совка, чтобы его можно было отмерить руками; план сообщает, когда округлённая сумма отличается."
+     ],
+     [
+      "Я купил Pro на другом устройстве.",
+      "На новом устройстве откройте Настройки › Восстановить покупки, войдя с той же учётной записью Apple."
+     ],
+     [
+      "Как сменить язык?",
+      "Настройки › Язык приложения… открывает системную настройку языка для приложения в iOS."
+     ]
+    ]
+   }
+  },
+  "tr": {
+   "languages": "Diller",
+   "contact": "İletişim",
+   "updated": "Son güncelleme: 4 Kasım 2026",
+   "privacy": {
+    "title": "Gizlilik politikası",
+    "lead": "Potbench her şeyi cihazında tutar. Hesap yok, sunucu yok, analiz yok, reklam yok.",
+    "sections": [
+     [
+      "Cihazda kalanlar",
+      "Saksı değişimleri, saksılar, karışımlar, malzemeler, torba fiyatları, günlük notları ve fotoğraflar iPhone ya da iPad'inde uygulamanın kendi klasöründe saklanır. Uygulama bunları hiçbir yere göndermez. iOS, yedekleme ayarlarına göre bu klasörü cihaz ya da iCloud yedeğine katabilir."
+     ],
+     [
+      "Fotoğraflar",
+      "Günlüğe eklediğin fotoğraf, uygulamanın dışında çalışan sistem fotoğraf seçicisiyle uygulama klasörüne kopyalanır; Potbench fotoğraf arşivini okumaz. Kaydı kaldırdığında ya da Ayarlar'da her şeyi sildiğinde kopya silinir."
+     ],
+     [
+      "Hatırlatmalar",
+      "Yeniden bakma hatırlatması, cihazda zamanlanan yerel bir bildirimdir. iOS, birini ilk seçtiğinde bildirim izni sorar; bununla ilgili hiçbir şey cihazdan çıkmaz."
+     ],
+     [
+      "Satın almalar",
+      "Potbench Pro, Apple App Store üzerinden tek seferlik bir satın almadır. Ödemeyi Apple işler; uygulama yalnızca satın almanın geçerli olup olmadığını öğrenir. İşleme Apple'ın gizlilik politikası uygulanır."
+     ],
+     [
+      "Yedekler ve paylaşım",
+      "Yedek, kendi dışa aktardığın bir dosyadır. Paylaşılan planlar, harmanlar ve CSV dosyaları sistem paylaşım sayfası üzerinden seçtiğin yere gider."
+     ],
+     [
+      "Ağ",
+      "Potbench kendi başına hiçbir ağ bağlantısı açmaz. Tek bağlantılar satın alma için App Store ve bu sayfadaki bağlantılardır."
+     ]
+    ]
+   },
+   "support": {
+    "title": "Destek",
+    "lead": "Potbench saksıyı ölçer, kök topunu ve sulama payını düşer, miktarın nasıl hesaplandığını gösterir ve sen karışımı dökerken kepçeleri seninle birlikte sayar.",
+    "sections": [
+     [
+      "Saksıyı ölç",
+      "Biçimi seç (düz, konik, kâse ya da saksı kasası) ve ağzı, tabanı ve iç yüksekliği yaz; ya da yaygın bir boy seç. ABD fidanlık boyları (#1, #2, #3, #5) ve Avrupa C kapları da var; markalar birbirinden farklıdır, bu yüzden saksının tabanına bak. Saksıyı suyla doldurup ölçtüysen o hacmi yaz: ölçülerin önüne geçer. Birimler bölgeni izler ve Ayarlar'dan değiştirilebilir."
+     ],
+     [
+      "Kök topu ve büyüğe geçiş",
+      "Bitki bir boy büyük saksıya geçerken Büyüğe geçiş'i ve eski saksıyı seç: hacmi kök topu sayılır, gevşetip ayırdığın kısım çıkarılır. Potbench iki saksıyı da karşılaştırır; rehberler 1 ile 2 inç (2,5 ile 5 cm) daha geniş bir saksı önerir, yeni saksı bundan çok daha büyükse bir not bunu söyler. Çelik için saksının bir payını kullan; alışılmadık bir kök topu için genişliğini ve yüksekliğini yaz."
+     ],
+     [
+      "Sulama payı ve çökme",
+      "Sulama payı, ağzın altında boş kalan derinliktir; yaklaşık 1 inç (2,5 cm), küçük saksılarda bunun yarısı. Taze karışım ilk sulamada çöker: kabuk ve hindistan cevizi lifi karışımlarında yaklaşık %15, bahçe toprağı içerenlerde %30 ile %40; bu yüzden o kadar fazlası hazırlanır. Miktarın altındaki satırlar her adımı gösterir ve gösterilen rakamda toplanır."
+     ],
+     [
+      "Neden drenaj katmanı yok",
+      "Üniversitelerin tarımsal yayım rehberleri, saksının dibine çakıl ya da kırık çömlek parçalarından bir katman konmamasını önerir: suyun süzülmesine yardım etmez, üstündeki toprağı daha ıslak tutar. Potbench saksıyı baştan sona tek karışımla doldurur. Alt dolgu yalnızca çok büyük saksılarda, karışımdan ve ağırlıktan tasarruf etmek için sunulur."
+     ],
+     [
+      "Karışımlar",
+      "Malzeme kitaplığından ölçeklerle bir karışım kur, kendi malzemeni ekle ya da on başlangıç tarifinden birini kopyala. Karışım, her malzeme bir katman olacak biçimde bir ölçü kabı olarak çizilir. Üç gösterge (yapı, su tutar, süzer) karışımı anlatır; belirli bir bitki için öneri değildir."
+     ],
+     [
+      "Ölçerek koy ve saksıya al",
+      "Elindeki kepçeyi seç (bardak, kuart, yarım litre gibi). Her ölçek, kepçeler toplam tutsun diye yarım kepçeye yuvarlanmış bir kepçe sayısına dönüşür. Ölçme ekranında bir satıra ya da büyük tuşa her dokunuş bir kepçe ekler; ölçü kabı çizgisine kadar dolar ve sıradaki malzeme işaretlenir. Geri al, son kepçeyi geri alır. Ölçme ekranı açıkken ekran uyanık kalır. Saksıya alma, gerçekten giren miktarı saklar."
+     ],
+     [
+      "Torba ve maliyet (Pro)",
+      "Bir malzemenin geldiği torbayı, üzerinde yazdığı gibi ve fiyatıyla gir. ABD saksı toprağı torbaları kuru kuart (1 qt = 1,1 L) ve kübik fit olarak satılır; Potbench onları bu şekilde okur. Plan, kaç torba alacağını, son torbada ne kaldığını ve maliyeti gösterir."
+     ],
+     [
+      "Toplu değişim (Pro)",
+      "Karışımı ortak olan birkaç planlı saksı değişimi tek harman olur: tek ölçü kabı, tek kepçe ve torba takımı, hepsi bir seferde ölçülür. Her bitkinin günlüğü kendi payını saklar."
+     ],
+     [
+      "Günlük ve yedekler",
+      "Her saksı değişimi saksısını, karışımını ve miktarları; tarihli notlar, fotoğraflar ve isteğe bağlı bir yeniden bakma hatırlatmasıyla birlikte saklar. Ayarlar › Yedeği dışa aktar, sende kalacak bir dosya yazar; Yedekten geri yükle, cihazdakileri onunla değiştirir. Her şeyi sil, bütün verileri ve fotoğrafları kaldırır."
+     ]
+    ],
+    "faq": [
+     [
+      "Neden tek rakam değil de bir aralık?",
+      "Saksılar nadiren kusursuz biçimdedir ve kök topları yaklaşıktır. Miktar bir planlama tahminidir; aralık, beklenecek sapmayı gösterir."
+     ],
+     [
+      "Potbench bitkimin hangi karışıma ihtiyacı olduğunu söyler mi?",
+      "Hayır. Seçtiğin karışım için miktarları hesaplar. Başlangıç tarifleri, ayarlanacak yaygın karışımlardır; bir teşhis ya da bitki sağlığı konusunda söz değildir."
+     ],
+     [
+      "Kepçeler miktardan biraz fazla çıkıyor.",
+      "Her malzeme elle ölçebilesin diye yarım kepçeye yuvarlanır; yuvarlanmış toplam farklıysa plan bunu söyler."
+     ],
+     [
+      "Pro'yu başka bir cihazda satın aldım.",
+      "Yeni cihazda, aynı Apple Hesabı ile giriş yapmışken Ayarlar › Satın almaları geri yükle'yi aç."
+     ],
+     [
+      "Dili nasıl değiştiririm?",
+      "Ayarlar › Uygulama dili, iOS'un uygulama başına dil ayarını açar."
+     ]
+    ]
+   }
+  }
  }
 }

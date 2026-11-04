@@ -6,13 +6,13 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 T = json.loads((ROOT / "copy.json").read_text())
 
-CSS = """:root{color-scheme:light dark;--paper:#f4ede1;--card:#fcf8f0;--ink:#22251d;--ink2:#5f6356;--clay:#bf5f36;--rule:#d9cebb}
-@media(prefers-color-scheme:dark){:root{--paper:#17140f;--card:#231e17;--ink:#f1e9db;--ink2:#a89f8f;--clay:#e07a4a;--rule:#3a3328}}
-*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.6 -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
-main{max-width:760px;margin:0 auto;padding:44px 22px 72px}.brand{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink2);font-weight:600}
-h1{font:600 40px/1.1 'New York','Iowan Old Style',Georgia,serif;margin:14px 0 8px}h2{font:600 24px/1.2 'New York','Iowan Old Style',Georgia,serif;margin:34px 0 8px}
+CSS = """:root{color-scheme:light dark;--bench:#d3dddc;--face:#f6f9f9;--ink:#10171a;--ink2:#3e5156;--rule:#a6b3b3;--lime:#cbe01f}
+@media(prefers-color-scheme:dark){:root{--bench:#232d2c;--face:#2f3b3a;--ink:#e8efee;--ink2:#a5b7b4;--rule:#44524f;--lime:#d4ea3d}}
+*{box-sizing:border-box}body{margin:0;background:var(--bench);color:var(--ink);font:17px/1.6 -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+main{max-width:760px;margin:0 auto;padding:44px 22px 72px}.brand{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink2);font-weight:700;border-bottom:1.5px solid var(--ink);padding-bottom:6px;display:inline-block}
+h1{font:700 40px/1.1 -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;margin:14px 0 8px;letter-spacing:-.01em}h2{font:600 21px/1.25 -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;margin:34px 0 8px;padding-top:12px;border-top:1px solid var(--rule)}
 p,li{margin:8px 0}.lead{font-size:20px;color:var(--ink2)}nav{display:flex;gap:18px;margin:18px 0 30px;flex-wrap:wrap}
-a{color:var(--clay);text-underline-offset:3px}.card{background:var(--card);border:1px solid var(--rule);border-radius:18px;padding:18px 22px;margin:14px 0}
+a{color:var(--ink);text-decoration-color:var(--ink2);text-underline-offset:3px}.card{background:var(--face);border:1px solid var(--rule);border-radius:6px;padding:16px 20px;margin:14px 0}
 footer{margin-top:40px;border-top:1px solid var(--rule);padding-top:16px;color:var(--ink2);font-size:14px}
 .langs{display:flex;flex-wrap:wrap;gap:10px 16px;font-size:14px}@media(max-width:600px){main{padding:30px 18px 56px}h1{font-size:32px}}"""
 
@@ -41,7 +41,7 @@ def main():
     (ROOT / "index.html").write_text(f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Potbench — Support</title><style>{CSS}</style>
 <link rel="canonical" href="https://hayriodabas.github.io/potbench-help/"></head>
-<body><main><div class="brand">Potbench</div><h1>Support and privacy</h1><p class="lead">Potbench plans a repot: measure the pot, build the mix by parts, measure it out by the scoop, and keep a journal. Pick a language.</p>
+<body><main><div class="brand">Potbench</div><h1>Support and privacy</h1><p class="lead">Potbench plans a repot: measure the pot, build the mix by parts, pour it out scoop by scoop, and keep a journal. Pick a language.</p>
 <ul class="langs">{links}</ul><footer><p>Hayri Odabaş · <a href="mailto:hayriodabas@gmail.com">hayriodabas@gmail.com</a></p></footer></main></body></html>
 """, encoding="utf-8")
     print("pages:", len(T["pages"]) * 2 + 1)
